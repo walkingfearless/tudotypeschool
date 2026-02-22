@@ -1,0 +1,26 @@
+# ── CODEOWNERS ──────────────────────────────────────────────────────────────
+#
+# João Miranda is the default owner of everything in this repository.
+# Any pull request that touches files outside 03_PROJECTS/ requires his review
+# before it can be merged into main.
+#
+# Rules are matched from bottom to top — the last matching rule wins.
+# ────────────────────────────────────────────────────────────────────────────
+
+# Default — João owns everything
+*                                        @walkingfearless
+
+# Root config files — explicitly protected
+.gitignore                               @walkingfearless
+.gitattributes                           @walkingfearless
+.github/                                 @walkingfearless
+
+# Documentation — João owns all of it
+01_DOCUMENTATION/                        @walkingfearless
+
+# Workshop structure — João owns the scaffolding
+02-UAlg-Type-Workshop/                   @walkingfearless
+
+# Student project folders — no owner required.
+# Students can submit pull requests here without needing João's approval.
+02-UAlg-Type-Workshop/03_PROJECTS/
