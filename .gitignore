@@ -42,3 +42,7 @@ __pycache__/
 
 # ── Internal / setup docs ────────────────────────────────────────────────────
 setup-readme.md
+
+# ── Documentation source files ───────────────────────────────────────────────
+# Markdown sources — only the compiled HTML is published
+01_DOCUMENTATION/md/
