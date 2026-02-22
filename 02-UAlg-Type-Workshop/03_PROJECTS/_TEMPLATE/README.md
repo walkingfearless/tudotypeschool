@@ -7,6 +7,20 @@
 
 ---
 
+## Opening this file
+
+This is a Markdown file (`.md`). It renders automatically on GitHub, but to edit or preview it locally you'll need a text editor with Markdown support. Recommended free options:
+
+| Platform | App | Link |
+|---|---|---|
+| Mac | MacDown | [macdown.uranusjr.com](https://macdown.uranusjr.com) |
+| Windows | ghostwriter | [ghostwriter.kde.org](https://ghostwriter.kde.org) |
+| Mac + Windows | Visual Studio Code | [code.visualstudio.com](https://code.visualstudio.com) |
+
+In VS Code, press `Cmd+Shift+V` (Mac) or `Ctrl+Shift+V` (Windows) to open the live preview.
+
+---
+
 ## About This Project
 
 _Describe your typeface project here. What kind of type are you designing? What is the concept or starting point? What are you trying to explore?_
