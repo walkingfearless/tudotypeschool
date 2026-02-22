@@ -20,7 +20,7 @@ tudotypeschool/
 3. Abre `01_DOCUMENTATION/index.html` no browser para acederes a todos os materiais de aula
 4. Na pasta do teu workshop, copia a pasta `_TEMPLATE` em `03_PROJECTS/` e renomeia-a com o teu nome
 
-O repositório é público para que possas experienciar a dinâmica colaborativa do GitHub e o controlo de versões — ferramentas fundamentais no desenvolvimento de fontes tipográficas.
+O repositório é público para que os estudantes possam experienciar a dinâmica colaborativa do GitHub e o controlo de versões — ferramentas fundamentais no desenvolvimento de fontes tipográficas.
 
 ---
 
@@ -46,4 +46,4 @@ tudotypeschool/
 3. Open `01_DOCUMENTATION/index.html` in your browser to access all course materials
 4. In your workshop folder, copy the `_TEMPLATE` folder inside `03_PROJECTS/` and rename it with your name
 
-The repository is public so you can experience the collaborative workflow of GitHub and version control — tools that are fundamental to font development.
+The repository is public so that the students can experience the collaborative workflow of GitHub and version control — tools that are fundamental to font development.
