@@ -1,0 +1,196 @@
+{
+"name": "uni2087",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -444
+}
+}
+],
+"xAdvance": 329
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -443
+}
+}
+],
+"xAdvance": 270
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -445
+}
+}
+],
+"xAdvance": 274
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -437
+}
+}
+],
+"xAdvance": 286
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -443
+}
+}
+],
+"xAdvance": 454
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -445
+}
+}
+],
+"xAdvance": 454
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -437
+}
+}
+],
+"xAdvance": 467
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -445
+}
+}
+],
+"xAdvance": 337
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni2077",
+"transformation": {
+"translateY": -437
+}
+}
+],
+"xAdvance": 345
+}
+}
+}
+}

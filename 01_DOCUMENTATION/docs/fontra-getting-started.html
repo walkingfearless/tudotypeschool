@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Getting Started with Fontra</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Index</a></nav>
+
+<h1 id="getting-started-with-fontra">Getting Started with Fontra</h1>
+<p>Fontra is a free, open-source, browser-based font editor built for variable fonts from the ground up. Developed by Black[Foundry] and Just van Rossum with support from Google Fonts, it originally targeted the design and production of large CJK character sets but has grown into a near-feature-complete editor suitable for any type project.</p>
+<p>Because it runs in the browser, Fontra works on macOS, Windows, and Linux with the same interface. You can edit local files through the companion app <strong>Fontra Pak</strong>, or connect to a remote server for real-time collaboration with other designers.</p>
+<hr />
+<h2 id="1-installing-fontra-pak">1 — Installing Fontra Pak</h2>
+<p>Fontra Pak is a self-contained application that runs a local Fontra server and opens the editor in your default browser.</p>
+<table>
+<thead>
+<tr>
+<th>Platform</th>
+<th>How to install</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>macOS</strong></td>
+<td>Download the <code>.dmg</code> from <a href="https://fontra.xyz/">fontra.xyz</a>, open the package, and drag Fontra Pak into your Applications folder.</td>
+</tr>
+<tr>
+<td><strong>Windows 10/11</strong></td>
+<td>Download the <code>.zip</code> from <a href="https://fontra.xyz/">fontra.xyz</a>, extract it, and double-click the installer.</td>
+</tr>
+<tr>
+<td><strong>Linux (Ubuntu)</strong></td>
+<td>Search for <em>fontrapak</em> in Ubuntu Software, or install the snap: <code>sudo snap install fontrapak</code>. Flatpak is also available.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>For detailed platform instructions see the <a href="https://docs.fontra.xyz/how-tos/installation/installing-fontra-pak/">installation docs</a>.</p>
+</blockquote>
+<hr />
+<h2 id="2-opening-a-font">2 — Opening a Font</h2>
+<ol>
+<li>Double-click the <strong>Fontra Pak</strong> icon — a small start-up window appears.</li>
+<li><strong>Drag</strong> a <code>.ufo</code>, <code>.designspace</code>, <code>.fontra</code>, <code>.glyphs</code>, or <code>.glyphspackage</code> file onto that window.</li>
+<li>Fontra opens in your browser. You land on the <strong>Font Overview</strong> — a grid of all glyphs in the font.</li>
+<li><strong>Double-click</strong> any glyph cell to enter the <strong>Editor View</strong> and start drawing.</li>
+</ol>
+<p>You can also open compiled <code>.ttf</code> or <code>.otf</code> files for inspection (read-only).</p>
+<hr />
+<h2 id="3-supported-file-formats">3 — Supported File Formats</h2>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Read</th>
+<th>Write</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.fontra</code></td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>.ufo</code> / <code>.designspace</code></td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td><code>.glyphs</code> / <code>.glyphspackage</code></td>
+<td>Yes</td>
+<td>Yes (partial — via plugin)</td>
+</tr>
+<tr>
+<td><code>.ttf</code> / <code>.otf</code></td>
+<td>Yes</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>.rcjk</code> (RoboCJK)</td>
+<td>Yes (via plugin)</td>
+<td>Yes (via plugin)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-key-capabilities">4 — Key Capabilities</h2>
+<h3 id="variable-first-design">Variable-first design</h3>
+<p>Every glyph can have its own sources at any location in the design space. Variation axes are not forced to be global — you can define glyph-local axes and use <strong>variable components</strong> (similar to Smart Components in Glyphs) to build modular, parametric letterforms.</p>
+<h3 id="browser-based-cross-platform">Browser-based, cross-platform</h3>
+<p>The client is written in JavaScript and runs in any modern browser; the server is Python. Because it is browser-based, the interface is identical on macOS, Windows, and Linux.</p>
+<h3 id="real-time-collaboration">Real-time collaboration</h3>
+<p>When Fontra runs on a shared server, multiple designers can edit the same font simultaneously — each working on different glyphs without conflict. This was a core requirement for large CJK production teams.</p>
+<h3 id="background-layers-and-images">Background layers and images</h3>
+<p>You can create additional source layers per glyph for sketches, variations, or reference shapes. Background images (PNG or JPEG) can be placed inside a glyph with adjustable opacity, and are mostly compatible with the UFO background-image format.</p>
+<h3 id="opentype-feature-editing">OpenType feature editing</h3>
+<p>A built-in code panel (powered by CodeMirror) lets you author and edit OpenType feature source code directly inside Fontra, without switching to an external text editor.</p>
+<h3 id="kerning">Kerning</h3>
+<p>The Kerning tool lives alongside the new Sidebearing tool. Select a glyph pair and drag or use arrow keys to adjust values. Modifier keys constrain edits to 5, 10, or 50-unit increments. A context menu lets you create kerning exceptions for group pairs.</p>
+<h3 id="font-info-and-low-level-tables">Font Info and low-level tables</h3>
+<p>The Font Info panel exposes metadata (family name, version, UPM, etc.) as well as lower-level OpenType table settings (hhea, vhea, OS/2) so you can fine-tune the binary output.</p>
+<h3 id="large-character-set-support">Large character-set support</h3>
+<p>Fontra was designed from the start to handle fonts with tens of thousands of glyphs — scrolling, searching, and editing remain smooth even in massive CJK projects.</p>
+<hr />
+<h2 id="5-the-interface-at-a-glance">5 — The Interface at a Glance</h2>
+<p>Fontra has two main views:</p>
+<p><strong>Font Overview</strong> — a grid of all glyphs. You can filter by glyph sets (predefined collections independent from the font), search by name or Unicode, and see placeholder cells for characters not yet drawn.</p>
+<p><strong>Editor View</strong> — where you draw and edit. The toolbar on the left gives you access to the drawing and editing tools. Panels on the right provide context: design-space navigation, glyph info, transformations, reference fonts, preview text, and more.</p>
+<hr />
+<h2 id="6-drawing-and-editing-tools">6 — Drawing and Editing Tools</h2>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Pointer</strong></td>
+<td>Select, move, and transform points and contours.</td>
+</tr>
+<tr>
+<td><strong>Pen</strong></td>
+<td>Draw new Bézier contours. A sub-tool switches to quadratic curves.</td>
+</tr>
+<tr>
+<td><strong>Knife</strong></td>
+<td>Cut contours.</td>
+</tr>
+<tr>
+<td><strong>Shape</strong></td>
+<td>Draw basic geometric shapes (rectangles, ellipses).</td>
+</tr>
+<tr>
+<td><strong>Ruler</strong></td>
+<td>Measure distances and angles.</td>
+</tr>
+<tr>
+<td><strong>Hand</strong></td>
+<td>Pan the canvas.</td>
+</tr>
+<tr>
+<td><strong>Sidebearing</strong></td>
+<td>Adjust left and right sidebearings visually. Hold Alt to move opposite bearings symmetrically.</td>
+</tr>
+<tr>
+<td><strong>Kerning</strong></td>
+<td>Adjust pair kerning by dragging or with arrow keys. Shift-click to multi-select pairs.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-quick-reference-cheatsheet">7 — Quick-Reference Cheatsheet</h2>
+<h3 id="navigation">Navigation</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Shortcut / Gesture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pan canvas</td>
+<td>Hand tool <strong>or</strong> Space + drag</td>
+</tr>
+<tr>
+<td>Zoom in / out</td>
+<td>Scroll wheel or pinch</td>
+</tr>
+<tr>
+<td>Next / previous glyph</td>
+<td>Arrow shortcuts (customisable)</td>
+</tr>
+<tr>
+<td>Open glyph from overview</td>
+<td>Double-click the glyph cell</td>
+</tr>
+<tr>
+<td>Return to Font Overview</td>
+<td>Close the editor tab or use the menu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="editing-essentials">Editing essentials</h3>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Switch to Pen tool</td>
+<td>Select from toolbar (custom shortcut available)</td>
+</tr>
+<tr>
+<td>Toggle cubic / quadratic</td>
+<td>Use the Pen sub-tool toggle</td>
+</tr>
+<tr>
+<td>Undo / Redo</td>
+<td>Cmd/Ctrl + Z / Shift + Cmd/Ctrl + Z (per-glyph)</td>
+</tr>
+<tr>
+<td>Constrain kerning to 10 units</td>
+<td>Hold modifier key while dragging</td>
+</tr>
+<tr>
+<td>Create kerning exception</td>
+<td>Right-click with Kerning tool active</td>
+</tr>
+<tr>
+<td>Add background layer</td>
+<td>Layers panel — add a new source layer to the current glyph</td>
+</tr>
+<tr>
+<td>Place background image</td>
+<td>Drag a PNG/JPEG onto the glyph, or use the image panel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="file-formats-at-a-glance">File formats at a glance</h3>
+<table>
+<thead>
+<tr>
+<th>I want to…</th>
+<th>Use this format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Native round-trip editing</td>
+<td><code>.fontra</code></td>
+</tr>
+<tr>
+<td>Interop with other editors</td>
+<td><code>.ufo</code> / <code>.designspace</code></td>
+</tr>
+<tr>
+<td>Open a Glyphs file directly</td>
+<td><code>.glyphs</code> / <code>.glyphspackage</code></td>
+</tr>
+<tr>
+<td>Inspect a compiled font</td>
+<td><code>.ttf</code> / <code>.otf</code> (read-only)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="useful-links">Useful links</h3>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fontra home</td>
+<td><a href="https://fontra.xyz/">fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td><a href="https://docs.fontra.xyz/">docs.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Blog / updates</td>
+<td><a href="https://blog.fontra.xyz/">blog.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Changelog</td>
+<td><a href="https://fontra.xyz/changelog.html">fontra.xyz/changelog.html</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/fontra">github.com/fontra</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Sources: <a href="https://docs.fontra.xyz/">Fontra Documentation</a>, <a href="https://blog.fontra.xyz/">Fontra Blog</a>, <a href="https://github.com/fontra/fontra">Fontra GitHub</a>.</em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

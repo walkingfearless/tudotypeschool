@@ -1,0 +1,196 @@
+{
+"name": "seven.tf",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 29
+}
+}
+],
+"xAdvance": 632
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 60
+}
+}
+],
+"xAdvance": 546
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 63
+}
+}
+],
+"xAdvance": 546
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 37
+}
+}
+],
+"xAdvance": 546
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 59
+}
+}
+],
+"xAdvance": 878
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 67
+}
+}
+],
+"xAdvance": 878
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 36
+}
+}
+],
+"xAdvance": 878
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 36
+}
+}
+],
+"xAdvance": 632
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "seven",
+"transformation": {
+"translateX": 15
+}
+}
+],
+"xAdvance": 632
+}
+}
+}
+}

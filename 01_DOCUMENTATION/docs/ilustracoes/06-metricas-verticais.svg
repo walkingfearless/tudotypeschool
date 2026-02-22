@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" width="760" height="380"><rect width="760" height="380" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <!-- Schematic letter-zone column on left -->
+  <!-- Zones:
+       Ascender:   y=40  to y=100  (60px)
+       Cap height: y=100 to y=110  (10px band / just a line)
+       x-height body: y=110 to y=250 (140px)
+       Baseline:   y=250
+       Descender:  y=250 to y=310  (60px)
+  -->
+  <!-- Show coloured zone bands -->
+  <rect x="60" y="40" width="160" height="60" fill="#D63031" opacity="0.10" rx="2"/>
+  <rect x="60" y="110" width="160" height="140" fill="#2D6BE4" opacity="0.08" rx="2"/>
+  <rect x="60" y="250" width="160" height="60" fill="#D63031" opacity="0.10" rx="2"/>
+
+  <!-- Schematic glyph shapes inside -->
+  <!-- ascender stroke (like 'l' or 'd') -->
+  <rect x="90" y="50" width="20" height="200" fill="#111111" rx="2"/>
+  <!-- x-height body (like 'o') -->
+  <circle cx="160" cy="180" r="48" fill="#111111"/><circle cx="160" cy="180" r="30" fill="#111111"/>
+  <circle cx="160" cy="180" r="28" fill="white"/>
+  <!-- descender stroke (like 'p') -->
+  <rect x="200" y="120" width="20" height="190" fill="#111111" rx="2"/>
+
+  <!-- The 5 reference lines -->
+  <line x1="35" y1="40" x2="680" y2="40" stroke="#D63031" stroke-width="1" stroke-dasharray="5 3"/>
+  <line x1="35" y1="110" x2="680" y2="110" stroke="#2D6BE4" stroke-width="1" stroke-dasharray="5 3"/>
+  <line x1="35" y1="180" x2="680" y2="180" stroke="#888888" stroke-width="1" stroke-dasharray="3 2"/>
+  <line x1="35" y1="250" x2="680" y2="250" stroke="#111111" stroke-width="1"/>
+  <line x1="35" y1="310" x2="680" y2="310" stroke="#D63031" stroke-width="1" stroke-dasharray="5 3"/>
+
+  <!-- Labels -->
+  <text class="capr" x="270" y="44" text-anchor="start">ASCENDENTE</text>
+  <text class="sm" x="270" y="74" text-anchor="start">limite superior das ascendentes  (d, h, k, l)</text>
+  <text class="capu" x="270" y="114" text-anchor="start">LINHA DE CAIXA ALTA</text>
+  <text class="sm" x="270" y="144" text-anchor="start">topo das maiúsculas planas  (H, E, F, I)</text>
+  <text class="cap" x="270" y="184" text-anchor="start">ALTURA-X</text>
+  <text class="sm" x="270" y="214" text-anchor="start">topo do corpo das minúsculas  (n, o, a, x)</text>
+  <text class="capb" x="270" y="254" text-anchor="start">LINHA DE BASE</text>
+  <text class="sm" x="270" y="284" text-anchor="start">linha sobre a qual todas as letras assentam</text>
+  <text class="capr" x="270" y="314" text-anchor="start">DESCENDENTE</text>
+  <text class="sm" x="270" y="344" text-anchor="start">limite inferior das descendentes  (p, q, g, y, j)</text>
+</svg>

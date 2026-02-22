@@ -1,0 +1,538 @@
+{
+"name": "i",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 76,
+"y": 0
+},
+{
+"x": 76,
+"y": 514
+},
+{
+"x": 167,
+"y": 514
+},
+{
+"x": 167,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 72,
+"y": 609
+},
+{
+"x": 72,
+"y": 714
+},
+{
+"x": 171,
+"y": 714
+},
+{
+"x": 171,
+"y": 609
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 243
+}
+},
+"wdth=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 67,
+"y": 0
+},
+{
+"x": 67,
+"y": 514
+},
+{
+"x": 149,
+"y": 514
+},
+{
+"x": 149,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 62,
+"y": 610
+},
+{
+"x": 62,
+"y": 714
+},
+{
+"x": 154,
+"y": 714
+},
+{
+"x": 154,
+"y": 610
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 216
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 77,
+"y": 0
+},
+{
+"x": 77,
+"y": 514
+},
+{
+"x": 133,
+"y": 514
+},
+{
+"x": 133,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 72,
+"y": 623
+},
+{
+"x": 72,
+"y": 714
+},
+{
+"x": 138,
+"y": 714
+},
+{
+"x": 138,
+"y": 623
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 210
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 31,
+"y": 0
+},
+{
+"x": 31,
+"y": 514
+},
+{
+"x": 221,
+"y": 514
+},
+{
+"x": 221,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 31,
+"y": 578
+},
+{
+"x": 31,
+"y": 714
+},
+{
+"x": 220,
+"y": 714
+},
+{
+"x": 220,
+"y": 578
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 251
+}
+},
+"wdth=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 61,
+"y": 0
+},
+{
+"x": 61,
+"y": 514
+},
+{
+"x": 156,
+"y": 514
+},
+{
+"x": 156,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 55,
+"y": 608
+},
+{
+"x": 55,
+"y": 714
+},
+{
+"x": 162,
+"y": 714
+},
+{
+"x": 162,
+"y": 608
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 217
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 66,
+"y": 0
+},
+{
+"x": 66,
+"y": 514
+},
+{
+"x": 132,
+"y": 514
+},
+{
+"x": 132,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 59,
+"y": 619
+},
+{
+"x": 59,
+"y": 714
+},
+{
+"x": 139,
+"y": 714
+},
+{
+"x": 139,
+"y": 619
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 198
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 43,
+"y": 0
+},
+{
+"x": 43,
+"y": 514
+},
+{
+"x": 256,
+"y": 514
+},
+{
+"x": 256,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 44,
+"y": 565
+},
+{
+"x": 44,
+"y": 714
+},
+{
+"x": 256,
+"y": 714
+},
+{
+"x": 256,
+"y": 565
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 300
+}
+},
+"wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 83,
+"y": 0
+},
+{
+"x": 83,
+"y": 514
+},
+{
+"x": 144,
+"y": 514
+},
+{
+"x": 144,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 78,
+"y": 626
+},
+{
+"x": 78,
+"y": 714
+},
+{
+"x": 149,
+"y": 714
+},
+{
+"x": 149,
+"y": 626
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 227
+}
+},
+"wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 48,
+"y": 0
+},
+{
+"x": 48,
+"y": 514
+},
+{
+"x": 238,
+"y": 514
+},
+{
+"x": 238,
+"y": 0
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 48,
+"y": 578
+},
+{
+"x": 48,
+"y": 714
+},
+{
+"x": 238,
+"y": 714
+},
+{
+"x": 238,
+"y": 578
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 286
+}
+}
+}
+}

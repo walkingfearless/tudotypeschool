@@ -1,0 +1,538 @@
+{
+"name": "quotedbl",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 71,
+"y": 446
+},
+{
+"x": 71,
+"y": 714
+},
+{
+"x": 157,
+"y": 714
+},
+{
+"x": 157,
+"y": 446
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 259,
+"y": 446
+},
+{
+"x": 259,
+"y": 714
+},
+{
+"x": 345,
+"y": 714
+},
+{
+"x": 345,
+"y": 446
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 415
+}
+},
+"wdth=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 56,
+"y": 447
+},
+{
+"x": 56,
+"y": 714
+},
+{
+"x": 137,
+"y": 714
+},
+{
+"x": 137,
+"y": 447
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 216,
+"y": 447
+},
+{
+"x": 216,
+"y": 714
+},
+{
+"x": 297,
+"y": 714
+},
+{
+"x": 297,
+"y": 447
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 353
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 62,
+"y": 467
+},
+{
+"x": 62,
+"y": 714
+},
+{
+"x": 118,
+"y": 714
+},
+{
+"x": 118,
+"y": 467
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 202,
+"y": 467
+},
+{
+"x": 202,
+"y": 714
+},
+{
+"x": 258,
+"y": 714
+},
+{
+"x": 258,
+"y": 467
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 320
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 45,
+"y": 406
+},
+{
+"x": 45,
+"y": 714
+},
+{
+"x": 200,
+"y": 714
+},
+{
+"x": 200,
+"y": 406
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 257,
+"y": 406
+},
+{
+"x": 257,
+"y": 714
+},
+{
+"x": 412,
+"y": 714
+},
+{
+"x": 412,
+"y": 406
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 457
+}
+},
+"wdth=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 66,
+"y": 443
+},
+{
+"x": 66,
+"y": 714
+},
+{
+"x": 158,
+"y": 714
+},
+{
+"x": 158,
+"y": 443
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 263,
+"y": 443
+},
+{
+"x": 263,
+"y": 714
+},
+{
+"x": 355,
+"y": 714
+},
+{
+"x": 355,
+"y": 443
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 421
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 71,
+"y": 463
+},
+{
+"x": 71,
+"y": 714
+},
+{
+"x": 137,
+"y": 714
+},
+{
+"x": 137,
+"y": 463
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 259,
+"y": 463
+},
+{
+"x": 259,
+"y": 714
+},
+{
+"x": 324,
+"y": 714
+},
+{
+"x": 324,
+"y": 463
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 395
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 55,
+"y": 386
+},
+{
+"x": 55,
+"y": 714
+},
+{
+"x": 240,
+"y": 714
+},
+{
+"x": 240,
+"y": 386
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 326,
+"y": 386
+},
+{
+"x": 326,
+"y": 714
+},
+{
+"x": 511,
+"y": 714
+},
+{
+"x": 511,
+"y": 386
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 566
+}
+},
+"wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 77,
+"y": 469
+},
+{
+"x": 77,
+"y": 714
+},
+{
+"x": 136,
+"y": 714
+},
+{
+"x": 136,
+"y": 469
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 236,
+"y": 469
+},
+{
+"x": 236,
+"y": 714
+},
+{
+"x": 295,
+"y": 714
+},
+{
+"x": 295,
+"y": 469
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 371
+}
+},
+"wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 60,
+"y": 406
+},
+{
+"x": 60,
+"y": 714
+},
+{
+"x": 218,
+"y": 714
+},
+{
+"x": 218,
+"y": 406
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 277,
+"y": 406
+},
+{
+"x": 277,
+"y": 714
+},
+{
+"x": 436,
+"y": 714
+},
+{
+"x": 436,
+"y": 406
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 497
+}
+}
+}
+}

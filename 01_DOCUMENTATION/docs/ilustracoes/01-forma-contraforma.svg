@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 385" width="800" height="385"><rect width="800" height="385" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <line x1="400" y1="20" x2="400" y2="370" stroke="#DDDDDD" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- LEFT: black ring = FORM (the ink) -->
+  <circle cx="200" cy="190" r="115" fill="#111111"/><circle cx="200" cy="190" r="68" fill="white"/>
+  <line x1="60" y1="330" x2="340" y2="330" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capb" x="200" y="348" text-anchor="middle">FORMA</text>
+  <text class="sm" x="200" y="364" text-anchor="middle">(espaço positivo — tinta)</text>
+
+  <!-- RIGHT: grey ring + red interior = COUNTERFORM -->
+  <!-- Ring in gray to de-emphasise the form itself -->
+  <circle cx="600" cy="190" r="115" fill="#888888"/><circle cx="600" cy="190" r="68" fill="white"/>
+  <!-- Red fill inside: the counterform highlighted -->
+  <circle cx="600" cy="190" r="67" fill="#D63031" opacity="0.20"/>
+  <circle cx="600" cy="190" r="67" fill="none" stroke="#D63031" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.9"/>
+  <line x1="460" y1="330" x2="740" y2="330" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capr" x="600" y="348" text-anchor="middle">CONTRAFORMA</text>
+  <text class="sm" x="600" y="364" text-anchor="middle">(espaço negativo — branco)</text>
+</svg>

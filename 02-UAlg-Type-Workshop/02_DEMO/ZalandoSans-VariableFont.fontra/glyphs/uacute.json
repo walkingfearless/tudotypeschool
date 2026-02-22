@@ -1,0 +1,199 @@
+{
+"name": "uacute",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 146
+}
+}
+],
+"xAdvance": 583
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 98
+}
+}
+],
+"xAdvance": 478
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 105
+}
+}
+],
+"xAdvance": 470
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 88
+}
+}
+],
+"xAdvance": 524
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 194
+}
+}
+],
+"xAdvance": 688
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 181
+}
+}
+],
+"xAdvance": 750
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 153
+}
+}
+],
+"xAdvance": 574
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "u"
+},
+{
+"name": "acutecomb",
+"transformation": {
+"translateX": 125
+}
+}
+],
+"xAdvance": 612
+}
+}
+}
+}

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fontra Pak — Guia de Aula</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Índice</a></nav>
+
+<h1 id="fontra-pak-guia-de-aula">Fontra Pak — Guia de Aula</h1>
+<blockquote>
+<p><strong>Antes deste guia:</strong> instala o Fontra Pak e lê a visão geral da interface em <a href="fontra-getting-started-pt.html"><strong>Fontra — Primeiros Passos</strong></a>. Este documento pressupõe que o Fontra Pak já está a correr no teu computador.</p>
+</blockquote>
+<hr />
+<h2 id="1-abrir-o-projecto-de-fonte-variavel-da-aula">1 — Abrir o Projecto de Fonte Variável da Aula</h2>
+<h3 id="sobre-a-zalandosans">Sobre a ZalandoSans</h3>
+<p>A fonte de demonstração da aula é <strong>ZalandoSans-VariableFont.fontra</strong>, localizada na pasta <code>02_DEMO</code> da unidade da aula. Trata-se da tipografia open-source <a href="https://github.com/zalando/sans">Zalando Sans</a>, lançada pela Zalando SE sob a Licença de Tipos Abertos SIL — um sans-serif contemporâneo com dois eixos variáveis:</p>
+<table>
+<thead>
+<tr>
+<th>Eixo</th>
+<th>Tag</th>
+<th>Intervalo</th>
+<th>Predefinição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Peso</td>
+<td><code>wght</code></td>
+<td>200 – 900</td>
+<td>400 (Regular)</td>
+</tr>
+<tr>
+<td>Largura</td>
+<td><code>wdth</code></td>
+<td>75 – 125</td>
+<td>100 (Normal)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="abrir-o-ficheiro">Abrir o ficheiro</h3>
+<ol>
+<li>Inicia o <strong>Fontra Pak</strong> — aparece a janela de arranque.</li>
+<li>No Finder / Explorador de Ficheiros, navega até <code>02_DEMO/</code> na unidade da aula.</li>
+<li><strong>Arrasta <code>ZalandoSans-VariableFont.fontra</code> para a janela de arranque do Fontra Pak</strong>.</li>
+<li>O browser abre automaticamente e aterra na <strong>Vista Geral da Fonte</strong> — uma grelha com todos os glifos da fonte.</li>
+</ol>
+<h3 id="explorar-os-eixos-variaveis">Explorar os eixos variáveis</h3>
+<ol>
+<li>Faz duplo clique em qualquer glifo — experimenta com <strong>H</strong>, <strong>O</strong> ou <strong>n</strong> — para entrar na <strong>Vista de Edição</strong>.</li>
+<li>No painel do lado direito, abre o painel <strong>Espaço de Design</strong> (ícone de bússola).</li>
+<li>Arrasta os cursores de <strong>Peso</strong> e <strong>Largura</strong> — o glifo actualiza em tempo real.</li>
+<li>Clica em qualquer posição no mapa de eixos 2-D para saltar directamente para essa localização.</li>
+</ol>
+<h3 id="usar-a-zalandosans-como-fonte-de-referencia-durante-o-teu-trabalho">Usar a ZalandoSans como Fonte de Referência durante o teu trabalho</h3>
+<ol>
+<li>Abre o teu próprio projecto numa sessão do Fontra Pak.</li>
+<li>No painel direito, abre o painel <strong>Fontes de Referência</strong>.</li>
+<li>Clica em <strong>+</strong> e navega até <code>ZalandoSans-VariableFont.fontra</code>.</li>
+<li>O glifo de referência aparece em cinzento por baixo dos teus desenhos — usa-o para comparar proporções, não para decalcar.</li>
+</ol>
+<hr />
+<h2 id="2-iniciar-um-novo-projecto-do-zero">2 — Iniciar um Novo Projecto do Zero</h2>
+<h3 id="criar-o-ficheiro-de-fonte">Criar o ficheiro de fonte</h3>
+<ol>
+<li>Na janela de arranque do Fontra Pak, clica em <strong>New Font…</strong></li>
+<li>Uma fonte nova e vazia abre no browser.</li>
+<li>Quando solicitado, escolhe um local de gravação dentro da pasta do teu projecto e dá um nome ao ficheiro (ex.: <code>MinhaFamilia.fontra</code>).
+   O Fontra guarda automaticamente a partir deste momento — não há passo manual de <em>Guardar</em>.</li>
+</ol>
+<h3 id="configurar-a-informacao-da-fonte">Configurar a Informação da Fonte</h3>
+<p>Abre o painel <strong>Informação da Fonte</strong> (ícone ⓘ na barra de ferramentas superior) e preenche no mínimo:</p>
+<table>
+<thead>
+<tr>
+<th>Campo</th>
+<th>Valor recomendado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nome da Família</td>
+<td>O nome da tua tipografia</td>
+</tr>
+<tr>
+<td>Unidades Por Em (UPM)</td>
+<td><code>1000</code> (padrão PostScript)</td>
+</tr>
+<tr>
+<td>Ascendente</td>
+<td><code>800</code></td>
+</tr>
+<tr>
+<td>Altura de Caixa Alta</td>
+<td><code>700</code></td>
+</tr>
+<tr>
+<td>Altura-x</td>
+<td><code>500</code></td>
+</tr>
+<tr>
+<td>Descendente</td>
+<td><code>-200</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="adicionar-um-eixo-variavel-opcional-apenas-para-fontes-variaveis">Adicionar um eixo variável (opcional — apenas para fontes variáveis)</h3>
+<ol>
+<li>Na Informação da Fonte, desce até à secção <strong>Eixos</strong> e clica em <strong>+</strong>.</li>
+<li>Eixo de partida padrão: <code>wght</code> Peso — mín. <code>100</code>, predefinição <code>400</code>, máx. <code>900</code>.</li>
+<li>Clica em <strong>Add source</strong> para colocar masters — ex.: Regular em 400, Bold em 700.</li>
+<li>O Fontra cria camadas de fonte separadas para cada localização de master.</li>
+</ol>
+<blockquote>
+<p>Para um primeiro projecto na aula, <strong>trabalha com um único master</strong>. Só adiciona um segundo quando o primeiro estiver sólido.</p>
+</blockquote>
+<h3 id="desenhar-os-primeiros-glifos">Desenhar os primeiros glifos</h3>
+<p>Segue a ordem de desenho estabelecida nas aulas de tipografia:</p>
+<ul>
+<li><strong>Caixa Alta:</strong> <code>H</code> e depois <code>O</code> — todos os outros caracteres maiúsculos derivam destas proporções.</li>
+<li><strong>Caixa Baixa:</strong> <code>n</code>, depois <code>o</code>, depois <code>y</code> — juntos definem o arco, a contraforma oval e a descendente.</li>
+</ul>
+<p>Para adicionar um glifo:</p>
+<ol>
+<li>Na Vista Geral da Fonte, clica em <strong>+</strong> (ou clique direito numa célula vazia → <strong>Add glyph</strong>).</li>
+<li>Escreve o nome do glifo (ex.: <code>H</code>) — o Fontra preenche o valor Unicode automaticamente para caracteres padrão.</li>
+<li>Faz duplo clique na nova célula para abrir a <strong>Vista de Edição</strong> e começar a desenhar.</li>
+</ol>
+<h3 id="importar-um-esboco-digitalizado-como-fundo">Importar um esboço digitalizado como fundo</h3>
+<ol>
+<li>Na Vista de Edição, abre o painel <strong>Camadas</strong> no lado direito.</li>
+<li>Clica em <strong>+</strong> e dá um nome à nova camada (ex.: <code>esboço</code>).</li>
+<li>Arrasta um PNG ou JPEG digitalizado para o canvas do glifo — fica na camada activa.</li>
+<li>Reduz a opacidade nas definições da camada para que não concorra com os teus contornos.</li>
+</ol>
+<hr />
+<h2 id="3-exportar-ficheiros-de-fonte">3 — Exportar Ficheiros de Fonte</h2>
+<h3 id="gravacao-automatica-nativa-fontra-sempre-activa">Gravação automática nativa — .fontra (sempre activa)</h3>
+<p>A tua pasta <code>.fontra</code> no disco está sempre actualizada. Não é necessário exportar para continuar o trabalho.</p>
+<h3 id="exportar-para-ufo-designspace">Exportar para UFO + DesignSpace</h3>
+<p>O formato de intercâmbio padrão — compatível com RoboFont, Glyphs e o pipeline de build do Google Fonts.</p>
+<ol>
+<li><strong>Ficheiro → Exportar como…</strong></li>
+<li>Escolhe <strong>UFO + DesignSpace</strong>.</li>
+<li>Selecciona um destino <strong>fora</strong> da pasta da tua fonte <code>.fontra</code>.</li>
+<li>Clica em <strong>Exportar</strong> — o Fontra escreve um <code>.ufo</code> por master mais um ficheiro <code>.designspace</code>.</li>
+</ol>
+<h3 id="exportar-para-ttf-otf-variavel">Exportar para TTF / OTF Variável</h3>
+<p>Para produzir uma fonte binária para testar em aplicações ou browsers:</p>
+<ol>
+<li><strong>Ficheiro → Exportar como…</strong> → <strong>Variable TTF</strong> (ou Variable OTF).</li>
+<li>Escolhe um destino e clica em <strong>Exportar</strong> — o Fontra compila a fonte directamente, sem ferramentas externas.</li>
+</ol>
+<h3 id="exportar-instancias-estaticas">Exportar instâncias estáticas</h3>
+<p>Para produzir ficheiros de estilos individuais (Regular.ttf, Bold.ttf, etc.):</p>
+<ol>
+<li><strong>Ficheiro → Exportar como…</strong> → <strong>Static TTF instances</strong>.</li>
+<li>O Fontra gera um binário por localização de master definida.</li>
+</ol>
+<blockquote>
+<p><strong>Prova rápida:</strong> instala o <code>.ttf</code> exportado no sistema, ou arrasta-o para <a href="https://wakamaifondue.com">wakamaifondue.com</a> para inspeccionar todos os eixos variáveis e features OpenType directamente no browser.</p>
+</blockquote>
+<hr />
+<h2 id="links-uteis">Links Úteis</h2>
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fontra — Primeiros Passos (geral)</td>
+<td><a href="fontra-getting-started-pt.html">fontra-getting-started-pt.html</a></td>
+</tr>
+<tr>
+<td>Documentação Fontra</td>
+<td><a href="https://docs.fontra.xyz/">docs.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Zalando Sans (referência open-source)</td>
+<td><a href="https://github.com/zalando/sans">github.com/zalando/sans</a></td>
+</tr>
+<tr>
+<td>Prova de fontes</td>
+<td><a href="https://wakamaifondue.com">wakamaifondue.com</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Fontes: <a href="https://docs.fontra.xyz/reference/menu/file/export-as">Fontra Docs – Export as</a> · <a href="https://github.com/zalando/sans">Zalando Sans</a></em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

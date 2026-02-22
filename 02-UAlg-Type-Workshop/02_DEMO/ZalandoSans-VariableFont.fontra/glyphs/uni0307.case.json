@@ -1,0 +1,349 @@
+{
+"name": "uni0307.case",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 605
+},
+{
+"x": 102,
+"y": 709
+},
+{
+"x": 202,
+"y": 709
+},
+{
+"x": 202,
+"y": 605
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 593
+},
+{
+"x": 102,
+"y": 695
+},
+{
+"x": 202,
+"y": 695
+},
+{
+"x": 202,
+"y": 593
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 598
+},
+{
+"x": 102,
+"y": 689
+},
+{
+"x": 180,
+"y": 689
+},
+{
+"x": 180,
+"y": 598
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 575
+},
+{
+"x": 102,
+"y": 716
+},
+{
+"x": 290,
+"y": 716
+},
+{
+"x": 290,
+"y": 575
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 609
+},
+{
+"x": 102,
+"y": 714
+},
+{
+"x": 210,
+"y": 714
+},
+{
+"x": 210,
+"y": 609
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 616
+},
+{
+"x": 102,
+"y": 711
+},
+{
+"x": 184,
+"y": 711
+},
+{
+"x": 184,
+"y": 616
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 590
+},
+{
+"x": 102,
+"y": 736
+},
+{
+"x": 314,
+"y": 736
+},
+{
+"x": 314,
+"y": 590
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 102,
+"y": 611
+},
+{
+"x": 102,
+"y": 699
+},
+{
+"x": 173,
+"y": 699
+},
+{
+"x": 173,
+"y": 611
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+},
+"wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 100,
+"y": 589
+},
+{
+"x": 100,
+"y": 726
+},
+{
+"x": 290,
+"y": 726
+},
+{
+"x": 290,
+"y": 589
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 0
+}
+}
+}
+}

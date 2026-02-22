@@ -1,0 +1,187 @@
+{
+"name": "macron",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 522
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304"
+}
+],
+"xAdvance": 425
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304"
+}
+],
+"xAdvance": 408
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304"
+}
+],
+"xAdvance": 491
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 595
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 587
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 627
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 506
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0304",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 551
+}
+}
+}
+}

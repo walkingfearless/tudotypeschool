@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 355" width="800" height="355"><rect width="800" height="355" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <!-- Uppercase ref -->
+  <text class="ltr" x="100" y="268" font-size="210" text-anchor="middle">H</text>
+  <text class="ltr" x="270" y="268" font-size="210" text-anchor="middle">O</text>
+  <line x1="360" y1="20" x2="360" y2="315" stroke="#DDDDDD" stroke-width="1"/>
+  <!-- Lowercase ref -->
+  <text class="ltr" x="430" y="268" font-size="210" text-anchor="middle">n</text>
+  <text class="ltr" x="575" y="268" font-size="210" text-anchor="middle">o</text>
+  <text class="ltr" x="715" y="268" font-size="210" text-anchor="middle">y</text>
+  <line x1="30" y1="295" x2="790" y2="295" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capb" x="180" y="318" text-anchor="middle">CAIXA ALTA</text>
+  <text class="sm" x="180" y="335" text-anchor="middle">começar por H e O</text>
+  <text class="capb" x="575" y="318" text-anchor="middle">CAIXA BAIXA</text>
+  <text class="sm" x="575" y="335" text-anchor="middle">começar por n, o e y</text>
+</svg>

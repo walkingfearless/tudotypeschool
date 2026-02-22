@@ -1,0 +1,187 @@
+{
+"name": "dieresis",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 499
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308"
+}
+],
+"xAdvance": 438
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308"
+}
+],
+"xAdvance": 409
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308"
+}
+],
+"xAdvance": 536
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 533
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 508
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 634
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 463
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0308",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 574
+}
+}
+}
+}

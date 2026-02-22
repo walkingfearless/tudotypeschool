@@ -1,0 +1,232 @@
+{
+"name": "Egrave",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 72,
+"translateY": 200
+}
+}
+],
+"xAdvance": 620
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 16,
+"translateY": 200
+}
+}
+],
+"xAdvance": 457
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 23,
+"translateY": 200
+}
+}
+],
+"xAdvance": 453
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": -15,
+"translateY": 200
+}
+}
+],
+"xAdvance": 474
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 132,
+"translateY": 200
+}
+}
+],
+"xAdvance": 775
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 138,
+"translateY": 200
+}
+}
+],
+"xAdvance": 769
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 118,
+"translateY": 200
+}
+}
+],
+"xAdvance": 822
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 81,
+"translateY": 200
+}
+}
+],
+"xAdvance": 609
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "gravecomb",
+"transformation": {
+"translateX": 62,
+"translateY": 200
+}
+}
+],
+"xAdvance": 632
+}
+}
+}
+}

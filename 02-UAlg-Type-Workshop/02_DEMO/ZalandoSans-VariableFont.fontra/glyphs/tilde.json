@@ -1,0 +1,187 @@
+{
+"name": "tilde",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 539
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb"
+}
+],
+"xAdvance": 507
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb"
+}
+],
+"xAdvance": 486
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb"
+}
+],
+"xAdvance": 588
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 609
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 596
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 664
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 517
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "tildecomb",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 612
+}
+}
+}
+}

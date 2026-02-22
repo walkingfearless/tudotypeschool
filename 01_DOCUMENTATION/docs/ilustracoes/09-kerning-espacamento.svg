@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 315" width="800" height="315"><rect width="800" height="315" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <text class="capb" x="400" y="22" text-anchor="middle">KERNING — ESPAÇAMENTO ENTRE PARES</text>
+
+  <!-- AW pair: diagonal + diagonal = tightest -->
+  <text class="ltr" x="75"  y="210" font-size="170" text-anchor="middle">A</text>
+  <text class="ltr" x="225" y="210" font-size="170" text-anchor="middle">W</text>
+  <!-- narrow red spacing zone -->
+  <rect x="157" y="50" width="24" height="155" fill="#D63031" opacity="0.15" rx="1"/>
+  <line x1="157" y1="48" x2="157" y2="210" stroke="#D63031" stroke-width="1.5"/>
+  <line x1="181" y1="48" x2="181" y2="210" stroke="#D63031" stroke-width="1.5"/>
+  <text class="capr" x="169" y="42" text-anchor="middle">estreito</text>
+  <line x1="30" y1="230" x2="365" y2="230" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="cap" x="150" y="247" text-anchor="middle">DIAGONAL + DIAGONAL</text>
+  <text class="capr" x="150" y="263" text-anchor="middle">espaço mais próximo</text>
+
+  <line x1="380" y1="30" x2="380" y2="275" stroke="#DDDDDD" stroke-width="1" stroke-dasharray="3 3"/>
+
+  <!-- HI pair: straight + straight = widest -->
+  <text class="ltr" x="470" y="210" font-size="170" text-anchor="middle">H</text>
+  <text class="ltr" x="660" y="210" font-size="170" text-anchor="middle">I</text>
+  <!-- wider blue spacing zone -->
+  <rect x="560" y="50" width="52" height="155" fill="#2D6BE4" opacity="0.12" rx="1"/>
+  <line x1="560" y1="48" x2="560" y2="210" stroke="#2D6BE4" stroke-width="1.5"/>
+  <line x1="612" y1="48" x2="612" y2="210" stroke="#2D6BE4" stroke-width="1.5"/>
+  <text class="capu" x="586" y="42" text-anchor="middle">largo</text>
+  <line x1="390" y1="230" x2="770" y2="230" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="cap" x="610" y="247" text-anchor="middle">RECTA + RECTA</text>
+  <text class="capu" x="610" y="263" text-anchor="middle">espaço mais afastado</text>
+
+  <line x1="30" y1="280" x2="770" y2="280" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="sm" x="400" y="298" text-anchor="middle">Diagonal+Diagonal  <  Diagonal+Redonda  <  Redonda+Recta  <  Recta+Recta</text>
+</svg>

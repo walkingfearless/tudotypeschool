@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fontra Pak — Class Guide</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Index</a></nav>
+
+<h1 id="fontra-pak-class-guide">Fontra Pak — Class Guide</h1>
+<blockquote>
+<p><strong>Before this guide:</strong> install Fontra Pak and read the interface overview in <a href="fontra-getting-started.html"><strong>Fontra — Getting Started</strong></a>. This document assumes Fontra Pak is already running on your machine.</p>
+</blockquote>
+<hr />
+<h2 id="1-open-the-class-variable-font-project">1 — Open the Class Variable Font Project</h2>
+<h3 id="about-zalandosans">About ZalandoSans</h3>
+<p>The class demo font is <strong>ZalandoSans-VariableFont.fontra</strong>, located in the <code>02_DEMO</code> folder of the class drive. It is the open-source <a href="https://github.com/zalando/sans">Zalando Sans</a> typeface, released by Zalando SE under the SIL Open Font Licence — a contemporary sans-serif with two variable axes:</p>
+<table>
+<thead>
+<tr>
+<th>Axis</th>
+<th>Tag</th>
+<th>Range</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Weight</td>
+<td><code>wght</code></td>
+<td>200 – 900</td>
+<td>400 (Regular)</td>
+</tr>
+<tr>
+<td>Width</td>
+<td><code>wdth</code></td>
+<td>75 – 125</td>
+<td>100 (Normal)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="opening-the-file">Opening the file</h3>
+<ol>
+<li>Launch <strong>Fontra Pak</strong> — the launcher window appears.</li>
+<li>In Finder / Explorer, navigate to <code>02_DEMO/</code> on the class drive.</li>
+<li><strong>Drag <code>ZalandoSans-VariableFont.fontra</code> onto the Fontra Pak launcher window</strong>.</li>
+<li>Your browser opens automatically and lands on the <strong>Font Overview</strong> — a grid of every glyph in the font.</li>
+</ol>
+<h3 id="exploring-the-variable-axes">Exploring the variable axes</h3>
+<ol>
+<li>Double-click any glyph — try <strong>H</strong>, <strong>O</strong>, or <strong>n</strong> — to enter the <strong>Editor View</strong>.</li>
+<li>In the right-hand panel, open the <strong>Design Space</strong> panel (compass icon).</li>
+<li>Drag the <strong>Weight</strong> and <strong>Width</strong> sliders — the glyph updates live.</li>
+<li>Click any position in the 2-D axis map to jump to that location instantly.</li>
+</ol>
+<h3 id="using-zalandosans-as-a-reference-font-while-editing-your-own-work">Using ZalandoSans as a Reference Font while editing your own work</h3>
+<ol>
+<li>Open your own project in a Fontra Pak session.</li>
+<li>In the right panel, open the <strong>Reference Fonts</strong> panel.</li>
+<li>Click <strong>+</strong> and navigate to <code>ZalandoSans-VariableFont.fontra</code>.</li>
+<li>The reference glyph appears in grey behind your drawings — use it for proportion comparison, not tracing.</li>
+</ol>
+<hr />
+<h2 id="2-start-a-new-project-from-scratch">2 — Start a New Project from Scratch</h2>
+<h3 id="create-the-font-file">Create the font file</h3>
+<ol>
+<li>In the Fontra Pak launcher, click <strong>New Font…</strong></li>
+<li>A new, empty font opens in the browser.</li>
+<li>When prompted, choose a save location inside your project folder and name the file (e.g. <code>MyFamily.fontra</code>).
+   Fontra saves automatically from this point on — there is no manual <em>Save</em> step.</li>
+</ol>
+<h3 id="set-up-font-info">Set up Font Info</h3>
+<p>Open the <strong>Font Info</strong> panel (ⓘ icon in the top toolbar) and fill in at minimum:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Recommended value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Family Name</td>
+<td>Your typeface name</td>
+</tr>
+<tr>
+<td>Units Per Em (UPM)</td>
+<td><code>1000</code> (PostScript standard)</td>
+</tr>
+<tr>
+<td>Ascender</td>
+<td><code>800</code></td>
+</tr>
+<tr>
+<td>Cap Height</td>
+<td><code>700</code></td>
+</tr>
+<tr>
+<td>x-Height</td>
+<td><code>500</code></td>
+</tr>
+<tr>
+<td>Descender</td>
+<td><code>-200</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="add-a-variable-axis-optional-for-variable-fonts-only">Add a variable axis (optional — for variable fonts only)</h3>
+<ol>
+<li>In Font Info, scroll to the <strong>Axes</strong> section and click <strong>+</strong>.</li>
+<li>A standard starting axis: <code>wght</code> Weight — min <code>100</code>, default <code>400</code>, max <code>900</code>.</li>
+<li>Click <strong>Add source</strong> to place masters — e.g. Regular at 400, Bold at 700.</li>
+<li>Fontra creates separate source layers for each master location.</li>
+</ol>
+<blockquote>
+<p>For a first project in class, <strong>work with a single master</strong>. Add a second only once the first is solid.</p>
+</blockquote>
+<h3 id="draw-your-first-glyphs">Draw your first glyphs</h3>
+<p>Follow the drawing order established in the typography sessions:</p>
+<ul>
+<li><strong>Uppercase:</strong> <code>H</code> then <code>O</code> — all other uppercase letters derive from these proportions.</li>
+<li><strong>Lowercase:</strong> <code>n</code> then <code>o</code> then <code>y</code> — together they define the arch, the bowl, and the descender.</li>
+</ul>
+<p>To add a glyph:</p>
+<ol>
+<li>In the Font Overview, click <strong>+</strong> (or right-click an empty cell → <strong>Add glyph</strong>).</li>
+<li>Type the glyph name (e.g. <code>H</code>) — Fontra fills the Unicode value automatically for standard characters.</li>
+<li>Double-click the new cell to open the <strong>Editor View</strong> and start drawing.</li>
+</ol>
+<h3 id="import-a-scanned-sketch-as-background">Import a scanned sketch as background</h3>
+<ol>
+<li>In the Editor View, open the <strong>Layers</strong> panel on the right.</li>
+<li>Click <strong>+</strong> and name the new layer (e.g. <code>sketch</code>).</li>
+<li>Drag a PNG or JPEG scan onto the glyph canvas — it lands in the active layer.</li>
+<li>Lower the opacity in the layer settings so it doesn&rsquo;t compete with your contours.</li>
+</ol>
+<hr />
+<h2 id="3-export-font-files">3 — Export Font Files</h2>
+<h3 id="native-autosave-fontra-always-on">Native autosave — .fontra (always on)</h3>
+<p>Your <code>.fontra</code> folder on disk is always current. No export is needed for ongoing work.</p>
+<h3 id="export-to-ufo-designspace">Export to UFO + DesignSpace</h3>
+<p>The standard interchange format — compatible with RoboFont, Glyphs, and the Google Fonts build pipeline.</p>
+<ol>
+<li><strong>File → Export as…</strong></li>
+<li>Choose <strong>UFO + DesignSpace</strong>.</li>
+<li>Select a destination <strong>outside</strong> your <code>.fontra</code> source folder.</li>
+<li>Click <strong>Export</strong> — Fontra writes one <code>.ufo</code> per master plus a <code>.designspace</code> file.</li>
+</ol>
+<h3 id="export-to-variable-ttf-otf">Export to Variable TTF / OTF</h3>
+<p>To produce a binary font for testing in applications or browsers:</p>
+<ol>
+<li><strong>File → Export as…</strong> → <strong>Variable TTF</strong> (or Variable OTF).</li>
+<li>Choose a destination and click <strong>Export</strong> — Fontra compiles the font directly, no external tools required.</li>
+</ol>
+<h3 id="export-to-static-instances">Export to Static instances</h3>
+<p>To produce individual style files (Regular.ttf, Bold.ttf, etc.):</p>
+<ol>
+<li><strong>File → Export as…</strong> → <strong>Static TTF instances</strong>.</li>
+<li>Fontra generates one binary per defined master location.</li>
+</ol>
+<blockquote>
+<p><strong>Quick proof:</strong> install the exported <code>.ttf</code> system-wide, or drop it on <a href="https://wakamaifondue.com">wakamaifondue.com</a> to inspect all variable axes and OpenType features directly in the browser.</p>
+</blockquote>
+<hr />
+<h2 id="useful-links">Useful Links</h2>
+<table>
+<thead>
+<tr>
+<th>Resource</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fontra — Getting Started (general)</td>
+<td><a href="fontra-getting-started.html">fontra-getting-started.html</a></td>
+</tr>
+<tr>
+<td>Fontra documentation</td>
+<td><a href="https://docs.fontra.xyz/">docs.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Zalando Sans source (open-source reference)</td>
+<td><a href="https://github.com/zalando/sans">github.com/zalando/sans</a></td>
+</tr>
+<tr>
+<td>Font proofing</td>
+<td><a href="https://wakamaifondue.com">wakamaifondue.com</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Sources: <a href="https://docs.fontra.xyz/reference/menu/file/export-as">Fontra Docs – Export as</a> · <a href="https://github.com/zalando/sans">Zalando Sans</a></em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,313 @@
+{
+"name": "threequarters",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 375
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 481,
+"translateY": -379
+}
+}
+],
+"xAdvance": 845
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 317
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 437,
+"translateY": -379
+}
+}
+],
+"xAdvance": 746
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 305
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 425,
+"translateY": -379
+}
+}
+],
+"xAdvance": 734
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 351
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 478,
+"translateY": -372
+}
+}
+],
+"xAdvance": 811
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 475
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 603,
+"translateY": -379
+}
+}
+],
+"xAdvance": 1108
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 474
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 597,
+"translateY": -379
+}
+}
+],
+"xAdvance": 1104
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 514
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 654,
+"translateY": -372
+}
+}
+],
+"xAdvance": 1156
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 351
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 467,
+"translateY": -379
+}
+}
+],
+"xAdvance": 827
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni00B3",
+"transformation": {
+"translateY": -65
+}
+},
+{
+"name": "fraction",
+"transformation": {
+"translateX": 393
+}
+},
+{
+"name": "uni2074",
+"transformation": {
+"translateX": 491,
+"translateY": -372
+}
+}
+],
+"xAdvance": 874
+}
+}
+}
+}

@@ -1,0 +1,538 @@
+{
+"name": "equal",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 60,
+"y": 347
+},
+{
+"x": 60,
+"y": 427
+},
+{
+"x": 612,
+"y": 427
+},
+{
+"x": 612,
+"y": 347
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 60,
+"y": 122
+},
+{
+"x": 60,
+"y": 202
+},
+{
+"x": 612,
+"y": 202
+},
+{
+"x": 612,
+"y": 122
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 672
+}
+},
+"wdth=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 60,
+"y": 330
+},
+{
+"x": 60,
+"y": 400
+},
+{
+"x": 510,
+"y": 400
+},
+{
+"x": 510,
+"y": 330
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 60,
+"y": 148
+},
+{
+"x": 60,
+"y": 218
+},
+{
+"x": 510,
+"y": 218
+},
+{
+"x": 510,
+"y": 148
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 570
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 65,
+"y": 340
+},
+{
+"x": 65,
+"y": 388
+},
+{
+"x": 481,
+"y": 388
+},
+{
+"x": 481,
+"y": 340
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 65,
+"y": 160
+},
+{
+"x": 65,
+"y": 208
+},
+{
+"x": 481,
+"y": 208
+},
+{
+"x": 481,
+"y": 160
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 546
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 50,
+"y": 318
+},
+{
+"x": 50,
+"y": 464
+},
+{
+"x": 562,
+"y": 464
+},
+{
+"x": 562,
+"y": 318
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 50,
+"y": 84
+},
+{
+"x": 50,
+"y": 230
+},
+{
+"x": 562,
+"y": 230
+},
+{
+"x": 562,
+"y": 84
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 612
+}
+},
+"wdth=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 70,
+"y": 382
+},
+{
+"x": 70,
+"y": 464
+},
+{
+"x": 656,
+"y": 464
+},
+{
+"x": 656,
+"y": 382
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 70,
+"y": 144
+},
+{
+"x": 70,
+"y": 226
+},
+{
+"x": 656,
+"y": 226
+},
+{
+"x": 656,
+"y": 144
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 726
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 75,
+"y": 390
+},
+{
+"x": 75,
+"y": 448
+},
+{
+"x": 641,
+"y": 448
+},
+{
+"x": 641,
+"y": 390
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 75,
+"y": 160
+},
+{
+"x": 75,
+"y": 218
+},
+{
+"x": 641,
+"y": 218
+},
+{
+"x": 641,
+"y": 160
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 716
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 55,
+"y": 359
+},
+{
+"x": 55,
+"y": 517
+},
+{
+"x": 665,
+"y": 517
+},
+{
+"x": 665,
+"y": 359
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 55,
+"y": 104
+},
+{
+"x": 55,
+"y": 262
+},
+{
+"x": 665,
+"y": 262
+},
+{
+"x": 665,
+"y": 104
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 720
+}
+},
+"wght=-1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 65,
+"y": 364
+},
+{
+"x": 65,
+"y": 414
+},
+{
+"x": 591,
+"y": 414
+},
+{
+"x": 591,
+"y": 364
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 65,
+"y": 158
+},
+{
+"x": 65,
+"y": 208
+},
+{
+"x": 591,
+"y": 208
+},
+{
+"x": 591,
+"y": 158
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 656
+}
+},
+"wght=1": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 45,
+"y": 350
+},
+{
+"x": 45,
+"y": 496
+},
+{
+"x": 635,
+"y": 496
+},
+{
+"x": 635,
+"y": 350
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 45,
+"y": 113
+},
+{
+"x": 45,
+"y": 259
+},
+{
+"x": 635,
+"y": 259
+},
+{
+"x": 635,
+"y": 113
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 680
+}
+}
+}
+}

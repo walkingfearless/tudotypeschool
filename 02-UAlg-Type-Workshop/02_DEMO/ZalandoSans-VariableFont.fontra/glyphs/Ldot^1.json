@@ -1,0 +1,199 @@
+{
+"name": "Ldot",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 544
+}
+}
+],
+"xAdvance": 544
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 418
+}
+}
+],
+"xAdvance": 418
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 447
+}
+}
+],
+"xAdvance": 447
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 718
+}
+}
+],
+"xAdvance": 718
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 713
+}
+}
+],
+"xAdvance": 713
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 759
+}
+}
+],
+"xAdvance": 759
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 538
+}
+}
+],
+"xAdvance": 538
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "L"
+},
+{
+"name": "periodcentered.loclCAT.case",
+"transformation": {
+"translateX": 560
+}
+}
+],
+"xAdvance": 560
+}
+}
+}
+}

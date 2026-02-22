@@ -1,0 +1,223 @@
+{
+"name": "i.loclTRK",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -31
+}
+}
+],
+"xAdvance": 243
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -40
+}
+}
+],
+"xAdvance": 216
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -33
+}
+}
+],
+"xAdvance": 210
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -70
+}
+}
+],
+"xAdvance": 251
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -48
+}
+}
+],
+"xAdvance": 217
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -44
+}
+}
+],
+"xAdvance": 198
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -58
+}
+}
+],
+"xAdvance": 300
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -25
+}
+}
+],
+"xAdvance": 227
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "dotlessi"
+},
+{
+"name": "uni0307",
+"transformation": {
+"translateX": -54
+}
+}
+],
+"xAdvance": 286
+}
+}
+}
+}

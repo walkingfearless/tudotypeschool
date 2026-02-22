@@ -1,0 +1,21 @@
+# ── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# ── Internal / setup docs ───────────────────────────────────────────────────
+# Context document for agent sessions — not for public consumption
+setup-readme.md
+
+# ── Documentation source files ──────────────────────────────────────────────
+# Markdown sources live in md/ — only the compiled HTML is published
+03_Documentation/md/
+
+# ── Lecture slide exports ────────────────────────────────────────────────────
+# 74 JPEG exports of the lecture PDF — large binaries, not needed in the repo
+01_Received/02b_apresentacao_tipografia_II_desenho_tipografico_2/
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo

@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primeiros Passos com o Fontra</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Índice</a></nav>
+
+<h1 id="primeiros-passos-com-o-fontra">Primeiros Passos com o Fontra</h1>
+<p>O Fontra é um editor de tipos gratuito, open-source e baseado em browser, construído de raiz para fontes variáveis. Desenvolvido pela Black[Foundry] e Just van Rossum com apoio do Google Fonts, nasceu para o design e produção de grandes conjuntos de caracteres CJK, mas cresceu até se tornar um editor quase completo, adequado a qualquer projecto tipográfico.</p>
+<p>Por correr no browser, o Fontra funciona em macOS, Windows e Linux com a mesma interface. Podes editar ficheiros locais através da aplicação complementar <strong>Fontra Pak</strong>, ou ligar a um servidor remoto para colaboração em tempo real com outros designers.</p>
+<hr />
+<h2 id="1-instalar-o-fontra-pak">1 — Instalar o Fontra Pak</h2>
+<p>O Fontra Pak é uma aplicação autónoma que inicia um servidor Fontra local e abre o editor no teu browser predefinido.</p>
+<table>
+<thead>
+<tr>
+<th>Plataforma</th>
+<th>Como instalar</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>macOS</strong></td>
+<td>Descarrega o <code>.dmg</code> de <a href="https://fontra.xyz/">fontra.xyz</a>, abre o pacote e arrasta o Fontra Pak para a pasta Aplicações.</td>
+</tr>
+<tr>
+<td><strong>Windows 10/11</strong></td>
+<td>Descarrega o <code>.zip</code> de <a href="https://fontra.xyz/">fontra.xyz</a>, extrai-o e faz duplo clique no instalador.</td>
+</tr>
+<tr>
+<td><strong>Linux (Ubuntu)</strong></td>
+<td>Pesquisa <em>fontrapak</em> no Ubuntu Software, ou instala o snap: <code>sudo snap install fontrapak</code>. O Flatpak também está disponível.</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Para instruções detalhadas por plataforma, consulta a <a href="https://docs.fontra.xyz/how-tos/installation/installing-fontra-pak/">documentação de instalação</a>.</p>
+</blockquote>
+<hr />
+<h2 id="2-abrir-uma-fonte">2 — Abrir uma Fonte</h2>
+<ol>
+<li>Faz duplo clique no ícone do <strong>Fontra Pak</strong> — aparece uma pequena janela de arranque.</li>
+<li><strong>Arrasta</strong> um ficheiro <code>.ufo</code>, <code>.designspace</code>, <code>.fontra</code>, <code>.glyphs</code> ou <code>.glyphspackage</code> para essa janela.</li>
+<li>O Fontra abre no browser. Aterras na <strong>Vista Geral da Fonte</strong> — uma grelha com todos os glifos da fonte.</li>
+<li><strong>Faz duplo clique</strong> em qualquer célula de glifo para entrar na <strong>Vista de Edição</strong> e começar a desenhar.</li>
+</ol>
+<p>Também podes abrir ficheiros <code>.ttf</code> ou <code>.otf</code> compilados apenas para inspecção (só de leitura).</p>
+<hr />
+<h2 id="3-formatos-de-ficheiro-suportados">3 — Formatos de Ficheiro Suportados</h2>
+<table>
+<thead>
+<tr>
+<th>Formato</th>
+<th>Leitura</th>
+<th>Escrita</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>.fontra</code></td>
+<td>Sim</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><code>.ufo</code> / <code>.designspace</code></td>
+<td>Sim</td>
+<td>Sim</td>
+</tr>
+<tr>
+<td><code>.glyphs</code> / <code>.glyphspackage</code></td>
+<td>Sim</td>
+<td>Sim (parcial — via plugin)</td>
+</tr>
+<tr>
+<td><code>.ttf</code> / <code>.otf</code></td>
+<td>Sim</td>
+<td>—</td>
+</tr>
+<tr>
+<td><code>.rcjk</code> (RoboCJK)</td>
+<td>Sim (via plugin)</td>
+<td>Sim (via plugin)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-funcionalidades-principais">4 — Funcionalidades Principais</h2>
+<h3 id="design-variavel-em-primeiro-lugar">Design variável em primeiro lugar</h3>
+<p>Cada glifo pode ter as suas próprias fontes em qualquer localização no espaço de design. Os eixos de variação não têm de ser globais — podes definir eixos locais ao glifo e usar <strong>componentes variáveis</strong> (semelhantes aos Smart Components do Glyphs) para construir formas modulares e paramétricas.</p>
+<h3 id="baseado-em-browser-multiplataforma">Baseado em browser, multiplataforma</h3>
+<p>O cliente é escrito em JavaScript e corre em qualquer browser moderno; o servidor é Python. Por ser baseado em browser, a interface é idêntica em macOS, Windows e Linux.</p>
+<h3 id="colaboracao-em-tempo-real">Colaboração em tempo real</h3>
+<p>Quando o Fontra corre num servidor partilhado, vários designers podem editar a mesma fonte em simultâneo — cada um a trabalhar em glifos diferentes, sem conflitos. Este era um requisito central para equipas de produção CJK de grande dimensão.</p>
+<h3 id="camadas-de-fundo-e-imagens">Camadas de fundo e imagens</h3>
+<p>Podes criar camadas de fonte adicionais por glifo para esboços, variações ou formas de referência. Imagens de fundo (PNG ou JPEG) podem ser colocadas dentro de um glifo com opacidade ajustável, e são maioritariamente compatíveis com o formato de imagem de fundo UFO.</p>
+<h3 id="edicao-de-features-opentype">Edição de features OpenType</h3>
+<p>Um painel de código integrado (baseado no CodeMirror) permite-te criar e editar código-fonte de features OpenType directamente no Fontra, sem precisar de mudar para um editor de texto externo.</p>
+<h3 id="kerning">Kerning</h3>
+<p>A ferramenta de Kerning coexiste com a nova ferramenta de Sidebearing. Selecciona um par de glifos e arrasta ou usa as teclas de seta para ajustar valores. As teclas modificadoras limitam as edições a incrementos de 5, 10 ou 50 unidades. Um menu de contexto permite criar excepções de kerning para pares de grupos.</p>
+<h3 id="informacao-da-fonte-e-tabelas-de-baixo-nivel">Informação da Fonte e tabelas de baixo nível</h3>
+<p>O painel de Informação da Fonte expõe metadados (nome da família, versão, UPM, etc.) bem como definições de tabelas OpenType de baixo nível (hhea, vhea, OS/2), para um controlo fino do resultado binário.</p>
+<h3 id="suporte-a-grandes-conjuntos-de-caracteres">Suporte a grandes conjuntos de caracteres</h3>
+<p>O Fontra foi concebido desde o início para lidar com fontes com dezenas de milhares de glifos — a navegação, pesquisa e edição mantêm-se fluidas mesmo em projectos CJK massivos.</p>
+<hr />
+<h2 id="5-a-interface-em-resumo">5 — A Interface em Resumo</h2>
+<p>O Fontra tem duas vistas principais:</p>
+<p><strong>Vista Geral da Fonte</strong> — uma grelha com todos os glifos. Podes filtrar por conjuntos de glifos (colecções predefinidas independentes da fonte), pesquisar por nome ou Unicode, e ver células marcadoras de posição para caracteres ainda não desenhados.</p>
+<p><strong>Vista de Edição</strong> — onde se desenha e edita. A barra de ferramentas à esquerda dá acesso às ferramentas de desenho e edição. Os painéis à direita fornecem contexto: navegação no espaço de design, informação do glifo, transformações, fontes de referência, texto de pré-visualização, e muito mais.</p>
+<hr />
+<h2 id="6-ferramentas-de-desenho-e-edicao">6 — Ferramentas de Desenho e Edição</h2>
+<table>
+<thead>
+<tr>
+<th>Ferramenta</th>
+<th>Função</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ponteiro</strong></td>
+<td>Seleccionar, mover e transformar pontos e contornos.</td>
+</tr>
+<tr>
+<td><strong>Caneta</strong></td>
+<td>Desenhar novos contornos de Bézier. Uma sub-ferramenta muda para curvas quadráticas.</td>
+</tr>
+<tr>
+<td><strong>Faca</strong></td>
+<td>Cortar contornos.</td>
+</tr>
+<tr>
+<td><strong>Forma</strong></td>
+<td>Desenhar formas geométricas básicas (rectângulos, elipses).</td>
+</tr>
+<tr>
+<td><strong>Régua</strong></td>
+<td>Medir distâncias e ângulos.</td>
+</tr>
+<tr>
+<td><strong>Mão</strong></td>
+<td>Mover o canvas.</td>
+</tr>
+<tr>
+<td><strong>Sidebearing</strong></td>
+<td>Ajustar os espaços laterais esquerdo e direito visualmente. Mantém Alt premido para mover os espaços opostos simetricamente.</td>
+</tr>
+<tr>
+<td><strong>Kerning</strong></td>
+<td>Ajustar o kerning de par por arrasto ou com as teclas de seta. Shift+clique para multi-seleccionar pares.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-referencia-rapida">7 — Referência Rápida</h2>
+<h3 id="navegacao">Navegação</h3>
+<table>
+<thead>
+<tr>
+<th>Acção</th>
+<th>Atalho / Gesto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mover o canvas</td>
+<td>Ferramenta Mão <strong>ou</strong> Espaço + arrastar</td>
+</tr>
+<tr>
+<td>Zoom in / out</td>
+<td>Roda do rato ou gesto de pinça</td>
+</tr>
+<tr>
+<td>Glifo anterior / seguinte</td>
+<td>Setas (configurável)</td>
+</tr>
+<tr>
+<td>Abrir glifo da Vista Geral</td>
+<td>Duplo clique na célula do glifo</td>
+</tr>
+<tr>
+<td>Regressar à Vista Geral da Fonte</td>
+<td>Fechar o separador do editor ou usar o menu</td>
+</tr>
+</tbody>
+</table>
+<h3 id="edicao-essencial">Edição essencial</h3>
+<table>
+<thead>
+<tr>
+<th>Acção</th>
+<th>Como</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mudar para a ferramenta Caneta</td>
+<td>Seleccionar na barra de ferramentas (atalho personalizado disponível)</td>
+</tr>
+<tr>
+<td>Alternar cúbico / quadrático</td>
+<td>Usar o selector de sub-ferramenta da Caneta</td>
+</tr>
+<tr>
+<td>Desfazer / Refazer</td>
+<td>Cmd/Ctrl + Z / Shift + Cmd/Ctrl + Z (por glifo)</td>
+</tr>
+<tr>
+<td>Limitar kerning a 10 unidades</td>
+<td>Manter tecla modificadora enquanto arrastas</td>
+</tr>
+<tr>
+<td>Criar excepção de kerning</td>
+<td>Clique direito com a ferramenta Kerning activa</td>
+</tr>
+<tr>
+<td>Adicionar camada de fundo</td>
+<td>Painel de Camadas — adicionar nova camada de fonte ao glifo actual</td>
+</tr>
+<tr>
+<td>Colocar imagem de fundo</td>
+<td>Arrastar PNG/JPEG para o glifo, ou usar o painel de imagem</td>
+</tr>
+</tbody>
+</table>
+<h3 id="formatos-em-resumo">Formatos em resumo</h3>
+<table>
+<thead>
+<tr>
+<th>Quero…</th>
+<th>Usar este formato</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Edição nativa sem perdas</td>
+<td><code>.fontra</code></td>
+</tr>
+<tr>
+<td>Interoperabilidade com outros editores</td>
+<td><code>.ufo</code> / <code>.designspace</code></td>
+</tr>
+<tr>
+<td>Abrir um ficheiro Glyphs directamente</td>
+<td><code>.glyphs</code> / <code>.glyphspackage</code></td>
+</tr>
+<tr>
+<td>Inspecionar uma fonte compilada</td>
+<td><code>.ttf</code> / <code>.otf</code> (só de leitura)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="links-uteis">Links úteis</h3>
+<table>
+<thead>
+<tr>
+<th>Recurso</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fontra (início)</td>
+<td><a href="https://fontra.xyz/">fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Documentação</td>
+<td><a href="https://docs.fontra.xyz/">docs.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Blog / actualizações</td>
+<td><a href="https://blog.fontra.xyz/">blog.fontra.xyz</a></td>
+</tr>
+<tr>
+<td>Changelog</td>
+<td><a href="https://fontra.xyz/changelog.html">fontra.xyz/changelog.html</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/fontra">github.com/fontra</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><em>Fontes: <a href="https://docs.fontra.xyz/">Documentação Fontra</a>, <a href="https://blog.fontra.xyz/">Blog Fontra</a>, <a href="https://github.com/fontra/fontra">GitHub Fontra</a>.</em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

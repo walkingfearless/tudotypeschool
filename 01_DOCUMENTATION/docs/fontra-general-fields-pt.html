@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fontra — Campos de Informação Geral da Fonte</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Índice</a></nav>
+
+<h1 id="fontra-campos-de-informacao-geral-da-fonte">Fontra — Campos de Informação Geral da Fonte</h1>
+<p>Referência rápida para os campos de metadados do painel <strong>General</strong> (Geral) do Font Info no Fontra. Estes valores são guardados dentro do próprio ficheiro de fonte e são utilizados pelo sistema operativo, pelas aplicações e pelos registos de tipos de letra.</p>
+<hr />
+<h2 id="family-name-nome-da-familia">Family name — Nome da família</h2>
+<p>O nome da família tipográfica — por exemplo, <em>Garamond</em>, <em>Helvetica</em>, ou o nome do teu projecto. É o que os utilizadores vêem ao navegar pelas fontes num processador de texto. Todos os estilos (Regular, Bold, Italic…) que pertencem ao mesmo conjunto partilham o mesmo nome de família.</p>
+<h2 id="copyright-direitos-de-autor">Copyright — Direitos de autor</h2>
+<p>Um aviso de direitos de autor para o tipo de letra, normalmente com a forma:
+<code>Copyright © 2025 O Teu Nome. Todos os direitos reservados.</code>
+Este campo fica gravado no ficheiro binário da fonte e ajuda a estabelecer a autoria legal.</p>
+<h2 id="trademark-marca-registada">Trademark — Marca registada</h2>
+<p>Se o nome ou o design da fonte estiver registado como marca, o respectivo aviso vai aqui (ex.: <em>Helvetica é uma marca registada da Monotype GmbH.</em>). A maioria dos projectos académicos deixa este campo vazio.</p>
+<h2 id="description-descricao">Description — Descrição</h2>
+<p>Um campo de texto livre para uma descrição mais extensa da fonte — o seu uso previsto, conceito de design, referências históricas, etc. Algumas aplicações mostram este texto ao utilizador final.</p>
+<h2 id="sample-text-texto-de-exemplo">Sample text — Texto de exemplo</h2>
+<p>Uma sequência de texto personalizada que os navegadores de fontes podem mostrar como pré-visualização, em vez do habitual &ldquo;Aa&rdquo; ou de um pangrama. Útil quando a tua fonte tem um conjunto de caracteres específico ou uma personalidade que queres destacar.</p>
+<h2 id="designer-designer">Designer — Designer</h2>
+<p>O nome da pessoa (ou das pessoas) que desenhou o tipo de letra. És tu — ou a tua equipa.</p>
+<h2 id="designer-url-url-do-designer">Designer URL — URL do designer</h2>
+<p>Um endereço web associado ao designer, normalmente um portfólio ou sítio de estúdio (ex.: <code>https://o-teu-portfolio.com</code>).</p>
+<h2 id="manufacturer-fabricante">Manufacturer — Fabricante</h2>
+<p>O nome da fundição ou organização que produziu e distribui a fonte. Em trabalhos académicos, é muitas vezes o mesmo que o designer, ou o nome da escola/curso.</p>
+<h2 id="manufacturer-url-url-do-fabricante">Manufacturer URL — URL do fabricante</h2>
+<p>O sítio web da fundição ou fabricante.</p>
+<h2 id="license-description-descricao-da-licenca">License description — Descrição da licença</h2>
+<p>Uma descrição em linguagem corrente das condições em que a fonte pode ser utilizada. Por exemplo:
+<em>Esta fonte é disponibilizada sob a SIL Open Font License, Versão 1.1.</em>
+As fontes comerciais podem indicar algo como: <em>Para uso em até 5 dispositivos. Não é permitida a incorporação em documentos.</em></p>
+<h2 id="license-info-url-url-da-informacao-de-licenca">License info URL — URL da informação de licença</h2>
+<p>Uma ligação para o documento completo da licença — por exemplo, <code>https://openfontlicense.org</code> para fontes OFL.</p>
+<h2 id="vendor-id-identificador-do-fornecedor">Vendor ID — Identificador do fornecedor</h2>
+<p>Um código de quatro caracteres que identifica de forma única o fornecedor da fonte na especificação OpenType (ex.: <code>ADBE</code> para a Adobe). Os fornecedores registados têm códigos atribuídos pela Microsoft. Para projectos pessoais ou académicos, este campo é frequentemente deixado em branco ou preenchido com uma etiqueta de quatro letras à escolha.</p>
+<h2 id="version-major-versao-principal">Version Major — Versão principal</h2>
+<p>A parte inteira do número de versão da fonte (ex.: <code>1</code> na versão 1.2). Deve ser incrementada em lançamentos significativos que introduzam alterações profundas.</p>
+<h2 id="version-minor-versao-secundaria">Version Minor — Versão secundária</h2>
+<p>A parte decimal do número de versão (ex.: <code>2</code> na versão 1.2). Deve ser incrementada em actualizações menores e correcções de erros.</p>
+<h2 id="units-per-em-unidades-por-em-upm">Units Per Em — Unidades por Em (UPM)</h2>
+<p>O número de unidades de design que cabem num em — a grelha de coordenadas fundamental da fonte. <strong>1000</strong> é o valor padrão para fontes PostScript/OpenType; 2048 é comum em TrueType. Todos os teus desenhos de glifos são escalados em relação a este valor. Alterar o UPM depois de teres começado a desenhar irá redimensionar tudo, por isso define-o no início e não o alteres.</p>
+<hr />
+<p><em>Referência: Especificação OpenType — <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/name">tabela Name</a> e <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/os2">tabela OS/2</a>.</em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

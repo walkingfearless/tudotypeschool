@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Setting Up GitHub</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Index</a></nav>
+<h1 id="setting-up-github">Setting Up GitHub</h1>
+<p>A step-by-step guide for workshop students — from creating an account to submitting your first project.</p>
+<hr />
+<h2 id="what-is-github">What is GitHub?</h2>
+<p>GitHub is a platform for storing and sharing files using <strong>Git</strong>, a version control system. In this workshop we use it to distribute teaching materials and collect student projects. Think of it as a shared folder that keeps a full history of every change you make.</p>
+<hr />
+<h2 id="step-1-create-a-github-account">Step 1 — Create a GitHub Account</h2>
+<ol>
+<li>Go to <a href="https://github.com">github.com</a> and click <strong>Sign up</strong></li>
+<li>Choose a username, enter your email address and a password</li>
+<li>Verify your email when prompted</li>
+<li>The free plan is all you need — do not subscribe to any paid tier</li>
+</ol>
+<p><strong>Username tip:</strong> use something professional and recognisable, such as <code>firstname-lastname</code> or <code>flastname</code>. This will be part of your public profile URL.</p>
+<hr />
+<h2 id="step-2-install-github-desktop">Step 2 — Install GitHub Desktop</h2>
+<p>GitHub Desktop is a visual application that lets you manage your work without using the command line.</p>
+<ol>
+<li>Download it from <a href="https://desktop.github.com">desktop.github.com</a></li>
+<li>Install and open it</li>
+<li>Sign in with your GitHub account when prompted</li>
+</ol>
+<hr />
+<h2 id="step-3-clone-the-workshop-repository">Step 3 — Clone the Workshop Repository</h2>
+<p>Cloning creates a local copy of the repository on your computer.</p>
+<ol>
+<li>In GitHub Desktop, go to <strong>File → Clone Repository</strong></li>
+<li>Click the <strong>URL</strong> tab</li>
+<li>Paste the repository URL provided by your instructor</li>
+<li>Choose where to save it on your computer (e.g. <code>Documents/UAlg-TypeWorkshop</code>)</li>
+<li>Click <strong>Clone</strong></li>
+</ol>
+<p>You now have a full local copy of all workshop materials.</p>
+<hr />
+<h2 id="step-4-set-up-your-project-folder">Step 4 — Set Up Your Project Folder</h2>
+<p>All student projects live inside <code>02-UAlg-Type-Workshop/03_PROJECTS/</code>. A template folder is provided for you to copy.</p>
+<ol>
+<li>Open the <code>03_PROJECTS/</code> folder on your computer</li>
+<li>Find the folder named <code>_TEMPLATE</code></li>
+<li>Duplicate it (copy and paste — do not move or rename the original)</li>
+<li>Rename your copy using the format <code>firstname-lastname</code> — for example: <code>ana-silva</code></li>
+<li>Open <code>README.md</code> inside your folder and fill in your name, project name, and a brief description of what you intend to design</li>
+</ol>
+<p>Your folder contains four subfolders:</p>
+<table>
+<thead>
+<tr>
+<th>Folder</th>
+<th>What goes here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>sources/</code></td>
+<td>Working files — Fontra, UFO, Glyphs</td>
+</tr>
+<tr>
+<td><code>exports/</code></td>
+<td>Compiled fonts — TTF, OTF, variable</td>
+</tr>
+<tr>
+<td><code>proofs/</code></td>
+<td>PDF specimens, test prints, proof sheets</td>
+</tr>
+<tr>
+<td><code>references/</code></td>
+<td>Sketches, scans, reference images</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="step-5-commit-and-push-your-work">Step 5 — Commit and Push Your Work</h2>
+<p>Committing saves a snapshot of your changes. Pushing sends them to GitHub.</p>
+<ol>
+<li>Open GitHub Desktop — your changed files appear listed on the left</li>
+<li>Write a short description in the <strong>Summary</strong> field — for example: <code>Add initial H and O drawings</code></li>
+<li>Click <strong>Commit to main</strong></li>
+<li>Click <strong>Push origin</strong> (top right) to upload your changes to GitHub</li>
+</ol>
+<p>Repeat this whenever you make meaningful progress. Treat commits like save points.</p>
+<hr />
+<h2 id="file-rules">File Rules</h2>
+<p><strong>Allowed — commit freely:</strong></p>
+<ul>
+<li>Font source files: <code>.fontra</code>, <code>.ufo</code>, <code>.glyphs</code>, <code>.designspace</code></li>
+<li>Compiled fonts: <code>.ttf</code>, <code>.otf</code></li>
+<li>Proofs and specimens: <code>.pdf</code></li>
+<li>Reference images: <code>.jpg</code>, <code>.png</code>, <code>.svg</code></li>
+</ul>
+<p><strong>Not allowed — do not commit:</strong></p>
+<ul>
+<li>Adobe source files: <code>.ai</code>, <code>.psd</code>, <code>.indd</code> — these can be hundreds of megabytes</li>
+<li>Video files: <code>.mp4</code>, <code>.mov</code>, <code>.avi</code></li>
+<li>Compressed archives: <code>.zip</code>, <code>.rar</code></li>
+<li>Any single file larger than 50 MB</li>
+</ul>
+<p>If you are unsure whether a file is suitable, ask your instructor before committing.</p>
+<hr />
+<h2 id="useful-tips">Useful Tips</h2>
+<ul>
+<li><strong>Pull before you work:</strong> before starting a session, click <strong>Fetch origin</strong> in GitHub Desktop to download any updates from your instructor</li>
+<li><strong>Commit often:</strong> small, frequent commits are much easier to review than one large upload at the end of the semester</li>
+<li><strong>Write clear summaries:</strong> <code>Add weight axis test</code> is more useful than <code>update</code> or <code>changes</code></li>
+</ul>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

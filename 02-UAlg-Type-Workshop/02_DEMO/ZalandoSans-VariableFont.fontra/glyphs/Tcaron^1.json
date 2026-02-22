@@ -1,0 +1,232 @@
+{
+"name": "Tcaron",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 39,
+"translateY": 200
+}
+}
+],
+"xAdvance": 616
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": -20,
+"translateY": 200
+}
+}
+],
+"xAdvance": 443
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": -15,
+"translateY": 200
+}
+}
+],
+"xAdvance": 436
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": -32,
+"translateY": 200
+}
+}
+],
+"xAdvance": 495
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 82,
+"translateY": 200
+}
+}
+],
+"xAdvance": 781
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 85,
+"translateY": 200
+}
+}
+],
+"xAdvance": 767
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 71,
+"translateY": 200
+}
+}
+],
+"xAdvance": 852
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 45,
+"translateY": 200
+}
+}
+],
+"xAdvance": 602
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "T"
+},
+{
+"name": "uni030C",
+"transformation": {
+"translateX": 21,
+"translateY": 200
+}
+}
+],
+"xAdvance": 655
+}
+}
+}
+}

@@ -1,0 +1,190 @@
+{
+"name": "ogonek",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 366
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328"
+}
+],
+"xAdvance": 351
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 336
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328"
+}
+],
+"xAdvance": 394
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 357
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 347
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 3
+}
+}
+],
+"xAdvance": 396
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 4
+}
+}
+],
+"xAdvance": 339
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 393
+}
+}
+}
+}

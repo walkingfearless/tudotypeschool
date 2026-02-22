@@ -1,0 +1,46 @@
+{
+"name": "uni2007",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"xAdvance": 632
+}
+},
+"wdth=-1": {
+"glyph": {
+"xAdvance": 546
+}
+},
+"wdth=1": {
+"glyph": {
+"xAdvance": 878
+}
+}
+}
+}

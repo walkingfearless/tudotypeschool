@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 295" width="800" height="295"><rect width="800" height="295" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <text class="capb" x="400" y="22" text-anchor="middle">HIERARQUIA DE PESO DE TRAÇO</text>
+
+  <!-- Three representative bars -->
+  <!-- Vertical bar — thickest -->
+  <rect x="152" y="55" width="34" height="130" fill="#111111" rx="2"/>
+  <text class="capu" x="169" y="205" text-anchor="middle">34 u</text>
+  <text class="capb" x="169" y="220" text-anchor="middle">VERTICAL</text>
+
+  <!-- Diagonal bar — medium (tilted rect approximated as parallelogram) -->
+  <polygon points="358,55 390,55 408,185 376,185" fill="#111111"/>
+  <text class="capu" x="383" y="205" text-anchor="middle">29 u</text>
+  <text class="capb" x="383" y="220" text-anchor="middle">DIAGONAL</text>
+
+  <!-- Horizontal bar — thinnest (same 34 wide visually but laid flat) -->
+  <rect x="555" y="107" width="130" height="28" fill="#111111" rx="2"/>
+  <text class="capu" x="620" y="205" text-anchor="middle">28 u</text>
+  <text class="capb" x="620" y="220" text-anchor="middle">HORIZONTAL</text>
+
+  <line x1="60" y1="235" x2="760" y2="235" stroke="#DDDDDD" stroke-width="1"/>
+
+  <!-- Rule summary -->
+  <text x="400" y="258" text-anchor="middle" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#D63031" letter-spacing="0.06em">VERTICAL (34)  &gt;  DIAGONAL (29)  &gt;  HORIZONTAL (28)</text>
+  <text class="sm" x="400" y="276" text-anchor="middle">Todas as letras devem respeitar esta hierarquia para que o peso óptico pareça uniforme</text>
+</svg>

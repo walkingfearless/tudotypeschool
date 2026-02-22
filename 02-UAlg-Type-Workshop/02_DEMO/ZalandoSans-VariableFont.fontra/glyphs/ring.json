@@ -1,0 +1,184 @@
+{
+"name": "ring",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni030A"
+}
+],
+"xAdvance": 405
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A"
+}
+],
+"xAdvance": 389
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A"
+}
+],
+"xAdvance": 377
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A"
+}
+],
+"xAdvance": 428
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 414
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 403
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A",
+"transformation": {
+"translateX": 3
+}
+}
+],
+"xAdvance": 460
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 391
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni030A",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 443
+}
+}
+}
+}

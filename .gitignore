@@ -1,0 +1,44 @@
+# ── macOS ───────────────────────────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Windows ─────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Adobe Creative Suite ─────────────────────────────────────────────────────
+# These files can easily reach 200–500 MB — keep them off the repo
+*.ai
+*.psd
+*.psb
+*.indd
+*.idml
+*.indb
+
+# ── Video ────────────────────────────────────────────────────────────────────
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+*.m4v
+
+# ── Compressed archives ──────────────────────────────────────────────────────
+# Commit the contents, not the archive
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+
+# ── Internal / setup docs ────────────────────────────────────────────────────
+setup-readme.md

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380"><rect width="800" height="380" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <text class="capb" x="400" y="22" text-anchor="middle">ANÁLISE DO E — COMPRIMENTO DOS BRAÇOS E BARRA MEDIANA</text>
+
+  <!-- LEFT: wrong — equal arms, middle at mathematical midpoint -->
+<rect x="70" y="55" width="40" height="280" fill="#111111" rx="2"/><rect x="110" y="55" width="160" height="32" fill="#111111" rx="2"/><rect x="110" y="179" width="160" height="32" fill="#111111" rx="2"/><rect x="110" y="303" width="160" height="32" fill="#111111" rx="2"/>
+  <line x1="60" y1="195" x2="290" y2="195" stroke="#888888" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="290" y1="195" x2="320" y2="195" stroke="#888888" stroke-width="1.5"/>
+  <text class="cap" x="325" y="199" text-anchor="start">ponto médio real</text>
+  <!-- Equal arm markers -->
+  <line x1="242" y1="55" x2="280" y2="55" stroke="#888888" stroke-width="1.5"/>
+  <line x1="242" y1="179" x2="280" y2="179" stroke="#888888" stroke-width="1.5"/>
+  <line x1="242" y1="303" x2="280" y2="303" stroke="#888888" stroke-width="1.5"/>
+  <text class="sm" x="285" y="59" text-anchor="start">= 160 u</text>
+  <text class="sm" x="285" y="183" text-anchor="start">= 160 u</text>
+  <text class="sm" x="285" y="307" text-anchor="start">= 160 u</text>
+  <line x1="60" y1="330" x2="360" y2="330" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="cap" x="170" y="346" text-anchor="middle">ERRADO</text>
+  <text class="sm" x="170" y="362" text-anchor="middle">braços iguais, bar no centro — pesado</text>
+
+  <line x1="410" y1="35" x2="410" y2="370" stroke="#DDDDDD" stroke-width="1" stroke-dasharray="4 3"/>
+<rect x="450" y="55" width="40" height="280" fill="#111111" rx="2"/><rect x="490" y="55" width="160" height="32" fill="#111111" rx="2"/><rect x="490" y="157" width="120" height="32" fill="#111111" rx="2"/><rect x="490" y="303" width="160" height="32" fill="#111111" rx="2"/>
+  <!-- Red dashed line showing optical midpoint (above real) -->
+  <line x1="440" y1="173" x2="660" y2="173" stroke="#D63031" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="660" y1="173" x2="690" y2="173" stroke="#D63031" stroke-width="1.5"/>
+  <text class="capr" x="694" y="177" text-anchor="start">barra óptica</text>
+  <!-- Show that middle arm is shorter -->
+  <line x1="581" y1="157" x2="640" y2="157" stroke="#D63031" stroke-width="1.5"/>
+  <text class="capr" x="645" y="161" text-anchor="start">120 u</text>
+  <line x1="621" y1="55" x2="640" y2="55" stroke="#2D6BE4" stroke-width="1.5"/>
+  <text class="capu" x="645" y="59" text-anchor="start">160 u</text>
+  <line x1="621" y1="303" x2="640" y2="303" stroke="#2D6BE4" stroke-width="1.5"/>
+  <text class="capu" x="645" y="307" text-anchor="start">160 u</text>
+  <line x1="440" y1="330" x2="750" y2="330" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capb" x="580" y="346" text-anchor="middle">CORRECTO</text>
+  <text class="sm" x="580" y="362" text-anchor="middle">braço central mais curto e acima do centro</text>
+</svg>

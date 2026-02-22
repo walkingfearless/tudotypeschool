@@ -1,0 +1,223 @@
+{
+"name": "Eogonek",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 314
+}
+}
+],
+"xAdvance": 620
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 177
+}
+}
+],
+"xAdvance": 457
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 180
+}
+}
+],
+"xAdvance": 453
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 167
+}
+}
+],
+"xAdvance": 474
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 471
+}
+}
+],
+"xAdvance": 775
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 468
+}
+}
+],
+"xAdvance": 769
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 494
+}
+}
+],
+"xAdvance": 822
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 314
+}
+}
+],
+"xAdvance": 609
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "E"
+},
+{
+"name": "uni0328",
+"transformation": {
+"translateX": 312
+}
+}
+],
+"xAdvance": 632
+}
+}
+}
+}

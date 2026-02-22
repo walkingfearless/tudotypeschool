@@ -1,0 +1,20 @@
+{
+"name": "uni200D",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"xAdvance": 0
+}
+}
+}
+}

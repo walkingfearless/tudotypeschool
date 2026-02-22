@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" width="800" height="410"><rect width="800" height="410" fill="white" stroke="#EBEBEB" stroke-width="1" rx="4"/><style>
+.ltr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight:800;fill:#111;}
+.cap{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#555;letter-spacing:.07em;}
+.capb{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#111;font-weight:700;letter-spacing:.07em;}
+.capr{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#D63031;font-weight:700;letter-spacing:.07em;}
+.capu{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:12px;fill:#2D6BE4;font-weight:700;letter-spacing:.07em;}
+.sm{font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;font-size:10px;fill:#888;}
+</style>
+  <text class="capb" x="400" y="22" text-anchor="middle">EIXO DE STRESS</text>
+  <!-- LEFT: vertical axis -->
+  <circle cx="200" cy="195" r="115" fill="#111111"/><circle cx="200" cy="195" r="68" fill="white"/>
+  <!-- vertical red axis line -->
+  <line x1="200" y1="62" x2="200" y2="328" stroke="#D63031" stroke-width="2" stroke-dasharray="5 3"/>
+  <circle cx="200" cy="79" r="5" fill="#D63031"/>
+  <circle cx="200" cy="311" r="5" fill="#D63031"/>
+  <line x1="65" y1="345" x2="335" y2="345" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capr" x="200" y="360" text-anchor="middle">EIXO VERTICAL</text>
+  <text class="sm" x="200" y="376" text-anchor="middle">racional · geométrico</text>
+
+  <line x1="400" y1="35" x2="400" y2="370" stroke="#DDDDDD" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- RIGHT: diagonal axis -->
+  <circle cx="600" cy="195" r="115" fill="#111111"/><circle cx="600" cy="195" r="68" fill="white"/>
+  <!-- diagonal red axis line -->
+  <line x1="540" y1="282" x2="660" y2="108" stroke="#D63031" stroke-width="2" stroke-dasharray="5 3"/>
+  <circle cx="544" cy="278" r="5" fill="#D63031"/>
+  <circle cx="656" cy="112" r="5" fill="#D63031"/>
+  <line x1="465" y1="345" x2="735" y2="345" stroke="#DDDDDD" stroke-width="1"/>
+  <text class="capr" x="600" y="360" text-anchor="middle">EIXO DIAGONAL</text>
+  <text class="sm" x="600" y="376" text-anchor="middle">caligrafia · humanista</text>
+
+  <text class="sm" x="400" y="395" text-anchor="middle">O eixo une os pontos mais finos da letra</text>
+</svg>

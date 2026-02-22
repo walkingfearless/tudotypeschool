@@ -1,0 +1,187 @@
+{
+"name": "breve",
+"sources": [
+{
+"name": "default",
+"layerName": "default",
+"location": {
+"wdth": 0,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1",
+"layerName": "wdth=-1",
+"location": {
+"wdth": -1,
+"wght": 0
+}
+},
+{
+"name": "wdth=-1,wght=-1",
+"layerName": "wdth=-1,wght=-1",
+"location": {
+"wdth": -1,
+"wght": -1
+}
+},
+{
+"name": "wdth=-1,wght=1",
+"layerName": "wdth=-1,wght=1",
+"location": {
+"wdth": -1,
+"wght": 1
+}
+},
+{
+"name": "wdth=1",
+"layerName": "wdth=1",
+"location": {
+"wdth": 1,
+"wght": 0
+}
+},
+{
+"name": "wdth=1,wght=-1",
+"layerName": "wdth=1,wght=-1",
+"location": {
+"wdth": 1,
+"wght": -1
+}
+},
+{
+"name": "wdth=1,wght=1",
+"layerName": "wdth=1,wght=1",
+"location": {
+"wdth": 1,
+"wght": 1
+}
+},
+{
+"name": "wght=-1",
+"layerName": "wght=-1",
+"location": {
+"wdth": 0,
+"wght": -1
+}
+},
+{
+"name": "wght=1",
+"layerName": "wght=1",
+"location": {
+"wdth": 0,
+"wght": 1
+}
+}
+],
+"layers": {
+"default": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 517
+}
+},
+"wdth=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306"
+}
+],
+"xAdvance": 489
+}
+},
+"wdth=-1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306"
+}
+],
+"xAdvance": 475
+}
+},
+"wdth=-1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306"
+}
+],
+"xAdvance": 546
+}
+},
+"wdth=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 578
+}
+},
+"wdth=1,wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 563
+}
+},
+"wdth=1,wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 1
+}
+}
+],
+"xAdvance": 640
+}
+},
+"wght=-1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 506
+}
+},
+"wght=1": {
+"glyph": {
+"components": [
+{
+"name": "uni0306",
+"transformation": {
+"translateX": 2
+}
+}
+],
+"xAdvance": 576
+}
+}
+}
+}
