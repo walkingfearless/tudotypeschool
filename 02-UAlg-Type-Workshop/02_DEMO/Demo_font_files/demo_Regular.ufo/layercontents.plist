@@ -10,5 +10,13 @@
       <string>weight=900</string>
       <string>glyphs.weight=900</string>
     </array>
+    <array>
+      <string>test1</string>
+      <string>glyphs.test1</string>
+    </array>
+    <array>
+      <string>shape=100^test1</string>
+      <string>glyphs.shape=100^test1</string>
+    </array>
   </array>
 </plist>

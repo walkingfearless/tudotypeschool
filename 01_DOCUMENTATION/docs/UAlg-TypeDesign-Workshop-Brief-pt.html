@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UAlg TypeDesign Workshop Brief pt</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Índice</a></nav>
+
+<p>Atelier de Type Design UAlg — Brief do Projecto</p>
+<p><strong>Formato:</strong> Workshop de 5 horas + continuação autónoma
+<strong>Ferramenta:</strong> Fontra (baseado no browser, sem instalação)
+<strong>Resultado:</strong> Um ficheiro de fonte (.otf) para usar num poster</p>
+<hr />
+<h2 id="o-brief">O Brief</h2>
+<p>Desenha uma <strong>tipografia de display</strong> — ou um conjunto distintivo de glifos — que possas usar como elemento tipográfico principal de um poster.</p>
+<p>Não precisas de desenhar um alfabeto completo. Precisas de desenhar <em>o suficiente</em> — o suficiente para compor uma palavra, um nome, uma frase, ou um título com significado para ti e que possa sustentar visualmente um poster.</p>
+<hr />
+<h2 id="dois-caminhos">Dois caminhos</h2>
+<h3 id="caminho-a-modificar">Caminho A — Modificar</h3>
+<p>Parte do ficheiro de fonte fornecido e transforma-o em algo que se sinta teu. Muda o peso, distorce as proporções, adiciona textura, corta as formas, exagera as características. A fonte de origem é um ponto de partida, não uma limitação.</p>
+<h3 id="caminho-b-do-zero">Caminho B — Do zero</h3>
+<p>Define uma palavra ou frase curta (o teu nome, um conceito, um título) e desenha apenas os glifos de que precisas para a compor. Menos letras, mais atenção a cada uma.</p>
+<p>Os dois caminhos são igualmente válidos. Escolhe o que melhor se adequa à forma como queres trabalhar hoje.</p>
+<hr />
+<h2 id="o-que-significa-terminado">O que significa &ldquo;terminado&rdquo;</h2>
+<p>No final, deves ter:</p>
+<ul>
+<li>[ ] Glifos suficientes para compor uma palavra significativa ou frase curta</li>
+<li>[ ] Um ficheiro de fonte que podes instalar e usar no Illustrator, InDesign, ou Figma</li>
+<li>[ ] Uma ideia clara do <em>propósito</em> da tua tipografia — a que poster ela pertence</li>
+</ul>
+<p>Não precisas de: um alfabeto completo, espaçamento perfeito, ou um conjunto de caracteres completo.</p>
+<hr />
+<h2 id="alguns-pontos-de-partida">Alguns pontos de partida</h2>
+<p>Se não sabes por onde começar, escolhe um destes como ponto de partida:</p>
+<ul>
+<li><strong>Um lugar</strong> — um sítio de onde és, um sítio para onde queres ir</li>
+<li><strong>Um som</strong> — um género musical, um ruído, uma atmosfera</li>
+<li><strong>Um sentimento</strong> — tensão, conforto, caos, lentidão</li>
+<li><strong>Um material</strong> — madeira, betão, néon, ferrugem, tecido</li>
+<li><strong>Algo partido ou inacabado</strong> — e faz disso o ponto central</li>
+</ul>
+<p>Não tens de usar nenhum destes. Mas ter uma direcção ajuda-te a tomar decisões.</p>
+<hr />
+<h2 id="familias-de-glifos-adn-partilhado">Famílias de glifos — ADN partilhado</h2>
+<p>As letras não são desenhadas de forma isolada. A maioria dos glifos numa tipografia partilha elementos estruturais com um pequeno grupo de outras letras — a mesma curva, o mesmo peso de traço, o mesmo terminal. Compreender estas famílias significa que podes tomar um grande número de decisões com um pequeno número de movimentos.</p>
+<h3 id="strings-de-referencia">Strings de referência</h3>
+<p>Duas sequências tradicionais são usadas para testar e revelar a maior parte do carácter de uma tipografia. Se estas ficarem bem, a maioria do resto segue:</p>
+<div class="highlight"><pre><span></span><code>ADHESION
+HAMBURGFONSTIVE
+</code></pre></div>
+
+<h3 id="familias-de-letras-maiusculas">Famílias de letras (maiúsculas)</h3>
+<p>As letras de cada grupo partilham formas e lógica de construção subjacentes. As decisões que tomares numa letra devem informar — ou ser directamente reutilizadas em — as outras:</p>
+<table>
+<thead>
+<tr>
+<th>Grupo</th>
+<th>Letras</th>
+<th>Lógica partilhada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Redondo</td>
+<td><strong>O C G Q</strong></td>
+<td>Mesmo oval, mesmo peso de curva</td>
+</tr>
+<tr>
+<td>Vertical + travessa</td>
+<td><strong>H L E F I T</strong></td>
+<td>Hastes verticais e traços horizontais</td>
+</tr>
+<tr>
+<td>Arco</td>
+<td><strong>H O H O H O</strong></td>
+<td>Ritmo de arco repetido (string de teste)</td>
+</tr>
+<tr>
+<td>Barriga</td>
+<td><strong>B P R</strong></td>
+<td>Construção de barriga superior/inferior</td>
+</tr>
+<tr>
+<td>Diagonal (aberto)</td>
+<td><strong>A V M N</strong></td>
+<td>Traços diagonais, ápice/vértice</td>
+</tr>
+<tr>
+<td>Diagonal (fechado)</td>
+<td><strong>V W Y X</strong></td>
+<td>Ângulos diagonais partilhados</td>
+</tr>
+<tr>
+<td>Diagonal + horizontal</td>
+<td><strong>E Z V</strong></td>
+<td>Horizontal encontra diagonal</td>
+</tr>
+<tr>
+<td>Perna</td>
+<td><strong>R K</strong></td>
+<td>A perna e o braço a partir de uma haste</td>
+</tr>
+<tr>
+<td>Base curva</td>
+<td><strong>J U</strong></td>
+<td>Curva que regressa à linha de base</td>
+</tr>
+<tr>
+<td>Espinha</td>
+<td><strong>S</strong></td>
+<td>A única — mas ecoa o peso do grupo redondo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="o-que-isto-significa-na-pratica">O que isto significa na prática</h3>
+<p>Desenha bem uma letra de um grupo e já tens o esqueleto das outras. Esta é a ideia central por trás do <strong>design baseado em componentes</strong> — construir glifos a partir de partes partilhadas e reutilizáveis. No Fontra, os componentes permitem-te colocar um glifo dentro de outro: muda a fonte, e todos os glifos que a usam actualizam automaticamente.</p>
+<p>Mesmo que apenas precisas de cinco letras para o teu poster, saber a que família pertencem ajuda-te a fazê-las parecer que vêm do mesmo sistema.</p>
+<hr />
+<h2 id="dicas-para-a-sessao">Dicas para a sessão</h2>
+<ul>
+<li><strong>Passa a primeira parte a observar.</strong> Olha para tipografias de display que admiras e tenta descrever <em>porque</em> funcionam — peso, contraste, ritmo, detalhe.</li>
+<li><strong>Não tentes desenhar tudo de uma vez.</strong> Começa com uma ou duas letras que definam o carácter da fonte (tipicamente uma redonda e uma recta — como <code>O</code> e <code>H</code>).</li>
+<li><strong>Deixa os grupos guiar-te.</strong> Depois de desenhares uma letra, usa as suas formas directamente nas suas letras parentes antes de avançar.</li>
+<li><strong>A consistência vem da repetição, não da perfeição.</strong> Reutiliza formas e decisões entre glifos.</li>
+<li><strong>Exporta cedo.</strong> Testa a tua fonte em contexto assim que tiveres alguns glifos. Vê-la num layout diz-te coisas que o editor não consegue.</li>
+</ul>
+<hr />
+<h2 id="entrega">Entrega</h2>
+<p>Não há entrega formal para o workshop em si. Após a sessão, continua a refinar ao teu ritmo. Quando estiveres pronto, exporta a tua fonte (File → Export → OTF) e usa-a num poster. O poster é teu para desenhar — o brief termina no ficheiro de fonte.</p>
+<hr />
+<p><em>Workshop orientado por João · walkingfearless.com</em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>

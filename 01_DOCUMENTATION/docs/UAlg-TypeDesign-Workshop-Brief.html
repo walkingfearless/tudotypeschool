@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UAlg TypeDesign Workshop Brief</title>
+  <link rel="stylesheet" href="../style.css">
+<style>
+.doc-nav { padding: 0.6rem 2rem; background: #f5f5f5; border-bottom: 1px solid #ddd;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 13px; }
+.doc-nav a { color: #111; text-decoration: none; font-weight: 600; letter-spacing: 0.05em; }
+.doc-nav a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+<nav class="doc-nav"><a href="../index.html">← Index</a></nav>
+
+<p>UAlg Type Design Workshop — Project Brief</p>
+<p><strong>Format:</strong> 5-hour workshop + self-directed continuation
+<strong>Tool:</strong> Fontra (browser-based, no installation needed)
+<strong>Output:</strong> A working font file (.otf) for use in a poster design</p>
+<hr />
+<h2 id="the-brief">The brief</h2>
+<p>Design a <strong>display typeface</strong> — or a distinctive set of glyphs — that you can use as the headline or key typographic element of a poster.</p>
+<p>You don&rsquo;t need to design a full alphabet. You need to design <em>enough</em> — enough to set a word, a name, a phrase, or a title that means something to you and that can carry a poster visually.</p>
+<hr />
+<h2 id="two-paths">Two paths</h2>
+<h3 id="path-a-modify">Path A — Modify</h3>
+<p>Start from the provided font file and reshape it into something that feels like yours. Change the weight, distort the proportions, add texture, cut into the forms, exaggerate features. The source is a starting point, not a constraint.</p>
+<h3 id="path-b-from-scratch">Path B — From scratch</h3>
+<p>Define a short word or phrase (your name, a concept, a title) and design only the glyphs you need to set it. Fewer letters, more attention to each one.</p>
+<p>Both paths are equally valid. Choose the one that matches how you want to work today.</p>
+<hr />
+<h2 id="what-done-looks-like">What &ldquo;done&rdquo; looks like</h2>
+<p>By the end, you should have:</p>
+<ul>
+<li>[ ] At least enough glyphs to set a meaningful word or short phrase</li>
+<li>[ ] A font file you can install and use in Illustrator, InDesign, or Figma</li>
+<li>[ ] A clear sense of what your type is <em>for</em> — what poster it belongs on</li>
+</ul>
+<p>You do not need: a full alphabet, perfect spacing, or a complete character set.</p>
+<hr />
+<h2 id="some-prompts-to-get-you-started">Some prompts to get you started</h2>
+<p>If you&rsquo;re not sure where to begin, pick one of these as a starting point:</p>
+<ul>
+<li><strong>A place</strong> — somewhere you&rsquo;re from, somewhere you want to go</li>
+<li><strong>A sound</strong> — a genre of music, a noise, an atmosphere</li>
+<li><strong>A feeling</strong> — tension, comfort, chaos, slowness</li>
+<li><strong>A material</strong> — wood, concrete, neon, rust, fabric</li>
+<li><strong>Something broken or unfinished</strong> — and make that the point</li>
+</ul>
+<p>You don&rsquo;t have to use a prompt. But having a direction helps you make decisions.</p>
+<hr />
+<h2 id="glyph-groups-shared-dna">Glyph groups — shared DNA</h2>
+<p>Letters are not designed in isolation. Most glyphs in a typeface share structural elements with a handful of others — the same curve, the same stroke weight, the same terminal. Understanding these families means you can make a large number of decisions with a small number of moves.</p>
+<h3 id="keyword-sets">Keyword sets</h3>
+<p>Two traditional strings are used to test and reveal most of a typeface&rsquo;s character. If these look good, most of the rest follows:</p>
+<div class="highlight"><pre><span></span><code>ADHESION
+HAMBURGFONSTIVE
+</code></pre></div>
+
+<h3 id="letter-families-uppercase">Letter families (uppercase)</h3>
+<p>Letters within each group share underlying shapes and construction logic. Decisions you make in one letter should inform — or be directly reused in — the others:</p>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Letters</th>
+<th>Shared logic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Round</td>
+<td><strong>O C G Q</strong></td>
+<td>Same oval, same curve weight</td>
+</tr>
+<tr>
+<td>Vertical + crossbar</td>
+<td><strong>H L E F I T</strong></td>
+<td>Uprights and horizontal strokes</td>
+</tr>
+<tr>
+<td>Arch</td>
+<td><strong>H O H O H O</strong></td>
+<td>Repeated arch rhythm (test string)</td>
+</tr>
+<tr>
+<td>Bowl</td>
+<td><strong>B P R</strong></td>
+<td>Shared upper/lower bowl construction</td>
+</tr>
+<tr>
+<td>Diagonal (open)</td>
+<td><strong>A V M N</strong></td>
+<td>Diagonal strokes, apex/vertex</td>
+</tr>
+<tr>
+<td>Diagonal (closed)</td>
+<td><strong>V W Y X</strong></td>
+<td>Shared diagonal angles</td>
+</tr>
+<tr>
+<td>Diagonal + horizontal</td>
+<td><strong>E Z V</strong></td>
+<td>Horizontal meets diagonal</td>
+</tr>
+<tr>
+<td>Leg</td>
+<td><strong>R K</strong></td>
+<td>The leg and arm off a stem</td>
+</tr>
+<tr>
+<td>Curved base</td>
+<td><strong>J U</strong></td>
+<td>Curve returning to baseline</td>
+</tr>
+<tr>
+<td>Spine</td>
+<td><strong>S</strong></td>
+<td>The unique one — but it echoes the round group&rsquo;s weight</td>
+</tr>
+</tbody>
+</table>
+<h3 id="what-this-means-in-practice">What this means in practice</h3>
+<p>Design one letter in a group well, and you already have the skeleton of the others. This is the core idea behind <strong>component-based design</strong> — building glyphs from shared, reusable parts. In Fontra, components let you place one glyph inside another: change the source, and every glyph that uses it updates automatically.</p>
+<p>Even if you only need five letters for your poster, knowing which family they belong to helps you make them feel like they come from the same system.</p>
+<hr />
+<h2 id="tips-for-the-session">Tips for the session</h2>
+<ul>
+<li><strong>Spend the first part observing.</strong> Look at display type you love and try to describe <em>why</em> it works — weight, contrast, rhythm, detail.</li>
+<li><strong>Don&rsquo;t try to draw everything at once.</strong> Start with one or two letters that define the character of the font (typically a round and a straight — like <code>O</code> and <code>H</code>).</li>
+<li><strong>Let the groups guide you.</strong> Once you&rsquo;ve drawn one letter, use its shapes directly in its relatives before moving on.</li>
+<li><strong>Consistency comes from repetition, not perfection.</strong> Reuse shapes and decisions across glyphs.</li>
+<li><strong>Export early.</strong> Test your font in context as soon as you have a few glyphs. Seeing it in a layout tells you things the editor can&rsquo;t.</li>
+</ul>
+<hr />
+<h2 id="delivery">Delivery</h2>
+<p>There is no formal submission for the workshop itself. After the session, continue refining at your own pace. When you&rsquo;re ready, export your font (File → Export → OTF) and use it in a poster. The poster is yours to design — the brief ends at the font file.</p>
+<hr />
+<p><em>Workshop led by João · walkingfearless.com</em></p>
+<footer class="doc-footer">
+  <span class="footer-left">
+    Type Design Workshop
+    <span class="separator">|</span>
+    UAlg 2026
+  </span>
+  <span>
+    By <a href="https://www.linkedin.com/in/walkingfearless/" target="_blank" rel="noopener">João Miranda</a>
+    <span class="separator">|</span>
+    <a href="https://tudotype.com" target="_blank" rel="noopener">tudotype</a>
+  </span>
+</footer>
+
+</body>
+</html>
