@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance width="500"/>
+  <unicode hex="0048"/>
+  <outline>
+    <contour>
+      <point x="26" y="702" type="line"/>
+      <point x="26" y="0" type="line"/>
+      <point x="156" y="0" type="line"/>
+      <point x="156" y="702" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>f2ce577e</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>Normal</key>
+        <string>default</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

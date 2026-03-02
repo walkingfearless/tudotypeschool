@@ -4,7 +4,13 @@
   <dict>
     <key>H</key>
     <string>H_.glif</string>
-    <key>a</key>
-    <string>a.glif</string>
+    <key>L</key>
+    <string>L_.glif</string>
+    <key>e</key>
+    <string>e.glif</string>
+    <key>l</key>
+    <string>l.glif</string>
+    <key>o</key>
+    <string>o.glif</string>
   </dict>
 </plist>
